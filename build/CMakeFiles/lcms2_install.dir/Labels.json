@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/frankeder/Documents/ocio/build/CMakeFiles/lcms2_install"
+		},
+		{
+			"file" : "/Users/frankeder/Documents/ocio/build/CMakeFiles/lcms2_install.rule"
+		},
+		{
+			"file" : "/Users/frankeder/Documents/ocio/build/CMakeFiles/lcms2_install-complete.rule"
+		},
+		{
+			"file" : "/Users/frankeder/Documents/ocio/build/ext/build/Little-CMS/src/lcms2_install-stamp/lcms2_install-install.rule"
+		},
+		{
+			"file" : "/Users/frankeder/Documents/ocio/build/ext/build/Little-CMS/src/lcms2_install-stamp/lcms2_install-mkdir.rule"
+		},
+		{
+			"file" : "/Users/frankeder/Documents/ocio/build/ext/build/Little-CMS/src/lcms2_install-stamp/lcms2_install-download.rule"
+		},
+		{
+			"file" : "/Users/frankeder/Documents/ocio/build/ext/build/Little-CMS/src/lcms2_install-stamp/lcms2_install-update.rule"
+		},
+		{
+			"file" : "/Users/frankeder/Documents/ocio/build/ext/build/Little-CMS/src/lcms2_install-stamp/lcms2_install-patch.rule"
+		},
+		{
+			"file" : "/Users/frankeder/Documents/ocio/build/ext/build/Little-CMS/src/lcms2_install-stamp/lcms2_install-configure.rule"
+		},
+		{
+			"file" : "/Users/frankeder/Documents/ocio/build/ext/build/Little-CMS/src/lcms2_install-stamp/lcms2_install-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"lcms2_install"
+		],
+		"name" : "lcms2_install"
+	}
+}

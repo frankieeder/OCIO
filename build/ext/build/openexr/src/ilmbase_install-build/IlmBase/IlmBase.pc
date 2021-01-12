@@ -1,0 +1,17 @@
+##
+## SPDX-License-Identifier: BSD-3-Clause
+## Copyright Contributors to the OpenEXR Project.
+##
+
+prefix=/Users/frankeder/Documents/ocio/build/ext/dist
+exec_prefix=bin
+libdir=lib
+includedir=include
+libsuffix=-2_4
+Name: IlmBase
+Description: Base math and exception libraries
+Version: 2.4.0
+Requires:
+Conflicts:
+Libs: -L${libdir} -lImath${libsuffix} -lHalf${libsuffix} -lIex${libsuffix} -lIexMath${libsuffix} -lIlmThread${libsuffix} 
+Cflags:  -I${includedir} -I${includedir}/OpenEXR

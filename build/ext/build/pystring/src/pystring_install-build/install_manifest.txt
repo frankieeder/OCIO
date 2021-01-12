@@ -1,0 +1,2 @@
+/Users/frankeder/Documents/ocio/build/ext/dist/lib/libpystring.a
+/Users/frankeder/Documents/ocio/build/ext/dist/include/pystring/pystring.h
