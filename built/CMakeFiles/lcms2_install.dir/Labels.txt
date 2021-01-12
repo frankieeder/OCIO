@@ -1,0 +1,13 @@
+# Target labels
+ lcms2_install
+# Source files and their labels
+/Users/frankeder/Documents/ocio/built/CMakeFiles/lcms2_install
+/Users/frankeder/Documents/ocio/built/CMakeFiles/lcms2_install.rule
+/Users/frankeder/Documents/ocio/built/CMakeFiles/lcms2_install-complete.rule
+/Users/frankeder/Documents/ocio/built/ext/build/Little-CMS/src/lcms2_install-stamp/lcms2_install-install.rule
+/Users/frankeder/Documents/ocio/built/ext/build/Little-CMS/src/lcms2_install-stamp/lcms2_install-mkdir.rule
+/Users/frankeder/Documents/ocio/built/ext/build/Little-CMS/src/lcms2_install-stamp/lcms2_install-download.rule
+/Users/frankeder/Documents/ocio/built/ext/build/Little-CMS/src/lcms2_install-stamp/lcms2_install-update.rule
+/Users/frankeder/Documents/ocio/built/ext/build/Little-CMS/src/lcms2_install-stamp/lcms2_install-patch.rule
+/Users/frankeder/Documents/ocio/built/ext/build/Little-CMS/src/lcms2_install-stamp/lcms2_install-configure.rule
+/Users/frankeder/Documents/ocio/built/ext/build/Little-CMS/src/lcms2_install-stamp/lcms2_install-build.rule

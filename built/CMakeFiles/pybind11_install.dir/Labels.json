@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/frankeder/Documents/ocio/built/CMakeFiles/pybind11_install"
+		},
+		{
+			"file" : "/Users/frankeder/Documents/ocio/built/CMakeFiles/pybind11_install.rule"
+		},
+		{
+			"file" : "/Users/frankeder/Documents/ocio/built/CMakeFiles/pybind11_install-complete.rule"
+		},
+		{
+			"file" : "/Users/frankeder/Documents/ocio/built/ext/build/pybind11/src/pybind11_install-stamp/pybind11_install-install.rule"
+		},
+		{
+			"file" : "/Users/frankeder/Documents/ocio/built/ext/build/pybind11/src/pybind11_install-stamp/pybind11_install-mkdir.rule"
+		},
+		{
+			"file" : "/Users/frankeder/Documents/ocio/built/ext/build/pybind11/src/pybind11_install-stamp/pybind11_install-download.rule"
+		},
+		{
+			"file" : "/Users/frankeder/Documents/ocio/built/ext/build/pybind11/src/pybind11_install-stamp/pybind11_install-update.rule"
+		},
+		{
+			"file" : "/Users/frankeder/Documents/ocio/built/ext/build/pybind11/src/pybind11_install-stamp/pybind11_install-patch.rule"
+		},
+		{
+			"file" : "/Users/frankeder/Documents/ocio/built/ext/build/pybind11/src/pybind11_install-stamp/pybind11_install-configure.rule"
+		},
+		{
+			"file" : "/Users/frankeder/Documents/ocio/built/ext/build/pybind11/src/pybind11_install-stamp/pybind11_install-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pybind11_install"
+		],
+		"name" : "pybind11_install"
+	}
+}

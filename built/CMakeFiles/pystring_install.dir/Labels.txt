@@ -1,0 +1,13 @@
+# Target labels
+ pystring_install
+# Source files and their labels
+/Users/frankeder/Documents/ocio/built/CMakeFiles/pystring_install
+/Users/frankeder/Documents/ocio/built/CMakeFiles/pystring_install.rule
+/Users/frankeder/Documents/ocio/built/CMakeFiles/pystring_install-complete.rule
+/Users/frankeder/Documents/ocio/built/ext/build/pystring/src/pystring_install-stamp/pystring_install-install.rule
+/Users/frankeder/Documents/ocio/built/ext/build/pystring/src/pystring_install-stamp/pystring_install-mkdir.rule
+/Users/frankeder/Documents/ocio/built/ext/build/pystring/src/pystring_install-stamp/pystring_install-download.rule
+/Users/frankeder/Documents/ocio/built/ext/build/pystring/src/pystring_install-stamp/pystring_install-update.rule
+/Users/frankeder/Documents/ocio/built/ext/build/pystring/src/pystring_install-stamp/pystring_install-patch.rule
+/Users/frankeder/Documents/ocio/built/ext/build/pystring/src/pystring_install-stamp/pystring_install-configure.rule
+/Users/frankeder/Documents/ocio/built/ext/build/pystring/src/pystring_install-stamp/pystring_install-build.rule

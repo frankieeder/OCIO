@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/frankeder/Documents/ocio/built/ext/build/pystring/src/pystring_install/pystring.cpp
+pystring.h
+/Users/frankeder/Documents/ocio/built/ext/build/pystring/src/pystring_install/pystring.h
+algorithm
+-
+cctype
+-
+cstring
+-
+iostream
+-
+sstream
+-
+
+/Users/frankeder/Documents/ocio/built/ext/build/pystring/src/pystring_install/pystring.h
+string
+-
+vector
+-
+

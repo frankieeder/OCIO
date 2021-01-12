@@ -1,0 +1,22 @@
+Determining if files ucontext.h exist failed with the following output:
+Change Dir: /Users/frankeder/Documents/ocio/built/ext/build/openexr/src/ilmbase_install-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2e73b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2e73b.dir/build.make CMakeFiles/cmTC_2e73b.dir/build
+Building C object CMakeFiles/cmTC_2e73b.dir/ILMBASE_HAVE_UCONTEXT_H.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o CMakeFiles/cmTC_2e73b.dir/ILMBASE_HAVE_UCONTEXT_H.c.o -c /Users/frankeder/Documents/ocio/built/ext/build/openexr/src/ilmbase_install-build/CMakeFiles/CheckIncludeFiles/ILMBASE_HAVE_UCONTEXT_H.c
+In file included from /Users/frankeder/Documents/ocio/built/ext/build/openexr/src/ilmbase_install-build/CMakeFiles/CheckIncludeFiles/ILMBASE_HAVE_UCONTEXT_H.c:2:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/ucontext.h:43:2: error: The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+#error The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+ ^
+1 error generated.
+make[4]: *** [CMakeFiles/cmTC_2e73b.dir/ILMBASE_HAVE_UCONTEXT_H.c.o] Error 1
+make[3]: *** [cmTC_2e73b/fast] Error 2
+
+
+Source:
+/* */
+#include <ucontext.h>
+
+
+int main(void){return 0;}
+

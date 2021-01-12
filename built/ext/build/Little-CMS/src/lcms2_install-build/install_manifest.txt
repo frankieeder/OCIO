@@ -1,0 +1,3 @@
+/Users/frankeder/Documents/ocio/built/ext/dist/lib/liblcms2.a
+/Users/frankeder/Documents/ocio/built/ext/dist/include/lcms2/lcms2.h
+/Users/frankeder/Documents/ocio/built/ext/dist/include/lcms2/lcms2_plugin.h
