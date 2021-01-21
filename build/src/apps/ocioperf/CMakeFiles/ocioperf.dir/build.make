@@ -102,19 +102,8 @@ src/apps/ocioperf/ocioperf: src/apputils/libapputils.a
 src/apps/ocioperf/ocioperf: ext/dist/lib/libHalf-2_4.a
 src/apps/ocioperf/ocioperf: src/libutils/oiiohelpers/libOpenColorIOoiiohelpers.a
 src/apps/ocioperf/ocioperf: src/OpenColorIO/libOpenColorIO.2.0.0.dylib
-src/apps/ocioperf/ocioperf: /usr/local/lib/libOpenImageIO.2.2.7.dylib
+src/apps/ocioperf/ocioperf: /usr/local/lib/libOpenImageIO.dylib
 src/apps/ocioperf/ocioperf: ext/dist/lib/libHalf-2_4.a
-src/apps/ocioperf/ocioperf: /usr/local/lib/libImath-2_5.dylib
-src/apps/ocioperf/ocioperf: /usr/local/lib/libIex-2_5.dylib
-src/apps/ocioperf/ocioperf: /usr/local/lib/libHalf-2_5.dylib
-src/apps/ocioperf/ocioperf: /usr/local/lib/libIlmThread-2_5.dylib
-src/apps/ocioperf/ocioperf: /usr/local/lib/libIlmImf-2_5.dylib
-src/apps/ocioperf/ocioperf: /usr/local/lib/libImath-2_5.dylib
-src/apps/ocioperf/ocioperf: /usr/local/lib/libIex-2_5.dylib
-src/apps/ocioperf/ocioperf: /usr/local/lib/libHalf-2_5.dylib
-src/apps/ocioperf/ocioperf: /usr/local/lib/libIlmThread-2_5.dylib
-src/apps/ocioperf/ocioperf: /usr/local/lib/libIlmImf-2_5.dylib
-src/apps/ocioperf/ocioperf: /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd
 src/apps/ocioperf/ocioperf: src/apps/ocioperf/CMakeFiles/ocioperf.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/frankeder/Documents/ocio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ocioperf"
 	cd /Users/frankeder/Documents/ocio/build/src/apps/ocioperf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ocioperf.dir/link.txt --verbose=$(VERBOSE)

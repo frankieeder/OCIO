@@ -741,6 +741,8 @@ PyImageDesc.h
 /Users/frankeder/Documents/ocio/OpenColorIO/src/bindings/python/PyImageDesc.h
 
 /Users/frankeder/Documents/ocio/OpenColorIO/src/bindings/python/PyProcessor.cpp
+PyDynamicProperty.h
+/Users/frankeder/Documents/ocio/OpenColorIO/src/bindings/python/PyDynamicProperty.h
 PyOpenColorIO.h
 /Users/frankeder/Documents/ocio/OpenColorIO/src/bindings/python/PyOpenColorIO.h
 PyUtils.h

@@ -447,6 +447,7 @@ tests/cpu/CMakeFiles/test_cpu_exec.dir/Op_tests.cpp.o: /Users/frankeder/Document
 tests/cpu/CMakeFiles/test_cpu_exec.dir/Op_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/include/OpenColorIO/OpenColorTransforms.h
 tests/cpu/CMakeFiles/test_cpu_exec.dir/Op_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/include/OpenColorIO/OpenColorTypes.h
 tests/cpu/CMakeFiles/test_cpu_exec.dir/Op_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/DynamicProperty.h
+tests/cpu/CMakeFiles/test_cpu_exec.dir/Op_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/Logging.h
 tests/cpu/CMakeFiles/test_cpu_exec.dir/Op_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/MathUtils.h
 tests/cpu/CMakeFiles/test_cpu_exec.dir/Op_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/Mutex.h
 tests/cpu/CMakeFiles/test_cpu_exec.dir/Op_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/Op.cpp
@@ -565,6 +566,7 @@ tests/cpu/CMakeFiles/test_cpu_exec.dir/Processor_tests.cpp.o: /Users/frankeder/D
 tests/cpu/CMakeFiles/test_cpu_exec.dir/Processor_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/ops/gradingtone/GradingTone.h
 tests/cpu/CMakeFiles/test_cpu_exec.dir/Processor_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/utils/StringUtils.h
 tests/cpu/CMakeFiles/test_cpu_exec.dir/Processor_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/Processor_tests.cpp
+tests/cpu/CMakeFiles/test_cpu_exec.dir/Processor_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/UnitTestLogUtils.h
 tests/cpu/CMakeFiles/test_cpu_exec.dir/Processor_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/UnitTestOptimFlags.h
 tests/cpu/CMakeFiles/test_cpu_exec.dir/Processor_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/tests/testutils/UnitTest.h
 tests/cpu/CMakeFiles/test_cpu_exec.dir/Processor_tests.cpp.o: include/OpenColorIO/OpenColorABI.h
@@ -3878,6 +3880,7 @@ tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/ExposureContrastTransform_test
 tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/ExposureContrastTransform_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/ops/gradingtone/GradingTone.h
 tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/ExposureContrastTransform_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/transforms/ExposureContrastTransform.cpp
 tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/ExposureContrastTransform_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/transforms/ExposureContrastTransform.h
+tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/ExposureContrastTransform_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/UnitTestLogUtils.h
 tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/ExposureContrastTransform_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/transforms/ExposureContrastTransform_tests.cpp
 tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/ExposureContrastTransform_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/tests/testutils/UnitTest.h
 tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/ExposureContrastTransform_tests.cpp.o: include/OpenColorIO/OpenColorABI.h
@@ -3951,6 +3954,7 @@ tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/GradingPrimaryTransform_tests.
 tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/GradingPrimaryTransform_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/ops/gradingtone/GradingTone.h
 tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/GradingPrimaryTransform_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/transforms/GradingPrimaryTransform.cpp
 tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/GradingPrimaryTransform_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/transforms/GradingPrimaryTransform.h
+tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/GradingPrimaryTransform_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/UnitTestLogUtils.h
 tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/GradingPrimaryTransform_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/transforms/GradingPrimaryTransform_tests.cpp
 tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/GradingPrimaryTransform_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/tests/testutils/UnitTest.h
 tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/GradingPrimaryTransform_tests.cpp.o: ext/dist/include/OpenEXR/half.h
@@ -3972,6 +3976,7 @@ tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/GradingRGBCurveTransform_tests
 tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/GradingRGBCurveTransform_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/ops/gradingtone/GradingTone.h
 tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/GradingRGBCurveTransform_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/transforms/GradingRGBCurveTransform.cpp
 tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/GradingRGBCurveTransform_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/transforms/GradingRGBCurveTransform.h
+tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/GradingRGBCurveTransform_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/UnitTestLogUtils.h
 tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/GradingRGBCurveTransform_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/transforms/GradingRGBCurveTransform_tests.cpp
 tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/GradingRGBCurveTransform_tests.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/tests/testutils/UnitTest.h
 tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/GradingRGBCurveTransform_tests.cpp.o: include/OpenColorIO/OpenColorABI.h

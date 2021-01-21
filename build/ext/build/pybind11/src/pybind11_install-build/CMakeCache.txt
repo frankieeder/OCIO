@@ -283,7 +283,7 @@ PYBIND11_PYTHON_VERSION:STRING=
 PYBIND11_TEST:BOOL=OFF
 
 //Path to a program.
-PYTHON_EXECUTABLE:FILEPATH=/usr/local/bin/python3.8
+PYTHON_EXECUTABLE:FILEPATH=/Users/frankeder/Documents/ocio/venv/bin/python
 
 //Path to a library.
 PYTHON_LIBRARY:FILEPATH=/Library/Frameworks/Python.framework/Versions/3.8/lib/libpython3.8.dylib
@@ -459,9 +459,9 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding PYTHON
-FIND_PACKAGE_MESSAGE_DETAILS_PYTHON:INTERNAL=/usr/local/bin/python3.83.8.1
+FIND_PACKAGE_MESSAGE_DETAILS_PYTHON:INTERNAL=/Users/frankeder/Documents/ocio/venv/bin/python3.8.1
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/local/bin/python3.8][v3.8.1()]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/Users/frankeder/Documents/ocio/venv/bin/python][v3.8.1()]
 //Test HAS_FLTO
 HAS_FLTO:INTERNAL=1
 //Test HAS_FLTO_THIN

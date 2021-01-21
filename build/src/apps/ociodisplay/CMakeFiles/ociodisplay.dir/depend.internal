@@ -9,28 +9,6 @@ src/apps/ociodisplay/CMakeFiles/ociodisplay.dir/main.cpp.o
  /Users/frankeder/Documents/ocio/OpenColorIO/src/apps/ociodisplay/main.cpp
  /Users/frankeder/Documents/ocio/OpenColorIO/src/libutils/oglapphelpers/glsl.h
  /Users/frankeder/Documents/ocio/OpenColorIO/src/libutils/oglapphelpers/oglapp.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/atomic.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/attrdelegate.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/dassert.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/detail/fmt/core.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/detail/fmt/format-inl.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/detail/fmt/format.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/detail/fmt/ostream.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/detail/fmt/printf.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/export.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/fmath.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/hash.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/imageio.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/oiioversion.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/paramlist.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/platform.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/simd.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/span.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/string_view.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/strutil.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/thread.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/typedesc.h
- /usr/local/Cellar/openimageio/2.2.7_1/include/OpenImageIO/ustring.h
  /usr/local/include/GL/glew.h
  /usr/local/include/OpenEXR/IexBaseExc.h
  /usr/local/include/OpenEXR/IexExport.h
@@ -47,4 +25,26 @@ src/apps/ociodisplay/CMakeFiles/ociodisplay.dir/main.cpp.o
  /usr/local/include/OpenEXR/ImathPlatform.h
  /usr/local/include/OpenEXR/ImathShear.h
  /usr/local/include/OpenEXR/ImathVec.h
+ /usr/local/include/OpenImageIO/atomic.h
+ /usr/local/include/OpenImageIO/attrdelegate.h
+ /usr/local/include/OpenImageIO/dassert.h
+ /usr/local/include/OpenImageIO/detail/fmt/core.h
+ /usr/local/include/OpenImageIO/detail/fmt/format-inl.h
+ /usr/local/include/OpenImageIO/detail/fmt/format.h
+ /usr/local/include/OpenImageIO/detail/fmt/ostream.h
+ /usr/local/include/OpenImageIO/detail/fmt/printf.h
+ /usr/local/include/OpenImageIO/export.h
+ /usr/local/include/OpenImageIO/fmath.h
+ /usr/local/include/OpenImageIO/hash.h
+ /usr/local/include/OpenImageIO/imageio.h
+ /usr/local/include/OpenImageIO/oiioversion.h
+ /usr/local/include/OpenImageIO/paramlist.h
+ /usr/local/include/OpenImageIO/platform.h
+ /usr/local/include/OpenImageIO/simd.h
+ /usr/local/include/OpenImageIO/span.h
+ /usr/local/include/OpenImageIO/string_view.h
+ /usr/local/include/OpenImageIO/strutil.h
+ /usr/local/include/OpenImageIO/thread.h
+ /usr/local/include/OpenImageIO/typedesc.h
+ /usr/local/include/OpenImageIO/ustring.h
  include/OpenColorIO/OpenColorABI.h

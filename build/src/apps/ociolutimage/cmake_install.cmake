@@ -44,9 +44,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/Users/frankeder/Documents/ocio/build/src/OpenColorIO"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ociolutimage")
-    execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/usr/local/lib"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ociolutimage")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ociolutimage")
     endif()

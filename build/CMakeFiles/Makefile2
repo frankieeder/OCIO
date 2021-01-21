@@ -1254,10 +1254,10 @@ src/apputils/CMakeFiles/apputils.dir/clean:
 # Target rules for target src/OpenColorIO/CMakeFiles/OpenColorIO.dir
 
 # All Build rule for target.
-src/OpenColorIO/CMakeFiles/OpenColorIO.dir/all: CMakeFiles/pystring_install.dir/all
 src/OpenColorIO/CMakeFiles/OpenColorIO.dir/all: CMakeFiles/ilmbase_install.dir/all
 src/OpenColorIO/CMakeFiles/OpenColorIO.dir/all: CMakeFiles/expat_install.dir/all
 src/OpenColorIO/CMakeFiles/OpenColorIO.dir/all: CMakeFiles/yaml-cpp_install.dir/all
+src/OpenColorIO/CMakeFiles/OpenColorIO.dir/all: CMakeFiles/pystring_install.dir/all
 	$(MAKE) $(MAKESILENT) -f src/OpenColorIO/CMakeFiles/OpenColorIO.dir/build.make src/OpenColorIO/CMakeFiles/OpenColorIO.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/OpenColorIO/CMakeFiles/OpenColorIO.dir/build.make src/OpenColorIO/CMakeFiles/OpenColorIO.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/frankeder/Documents/ocio/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Built target OpenColorIO"
@@ -1339,10 +1339,10 @@ tests/utils/CMakeFiles/test_utils_exec.dir/clean:
 # Target rules for target tests/cpu/CMakeFiles/test_cpu_exec.dir
 
 # All Build rule for target.
-tests/cpu/CMakeFiles/test_cpu_exec.dir/all: CMakeFiles/pystring_install.dir/all
 tests/cpu/CMakeFiles/test_cpu_exec.dir/all: CMakeFiles/ilmbase_install.dir/all
 tests/cpu/CMakeFiles/test_cpu_exec.dir/all: CMakeFiles/expat_install.dir/all
 tests/cpu/CMakeFiles/test_cpu_exec.dir/all: CMakeFiles/yaml-cpp_install.dir/all
+tests/cpu/CMakeFiles/test_cpu_exec.dir/all: CMakeFiles/pystring_install.dir/all
 tests/cpu/CMakeFiles/test_cpu_exec.dir/all: src/apputils/CMakeFiles/apputils.dir/all
 tests/cpu/CMakeFiles/test_cpu_exec.dir/all: tests/testutils/CMakeFiles/testutils.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/cpu/CMakeFiles/test_cpu_exec.dir/build.make tests/cpu/CMakeFiles/test_cpu_exec.dir/depend

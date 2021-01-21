@@ -100,18 +100,7 @@ src/apps/ociolutimage/ociolutimage: src/apps/ociolutimage/CMakeFiles/ociolutimag
 src/apps/ociolutimage/ociolutimage: src/apps/ociolutimage/CMakeFiles/ociolutimage.dir/build.make
 src/apps/ociolutimage/ociolutimage: src/apputils/libapputils.a
 src/apps/ociolutimage/ociolutimage: src/OpenColorIO/libOpenColorIO.2.0.0.dylib
-src/apps/ociolutimage/ociolutimage: /usr/local/lib/libOpenImageIO.2.2.7.dylib
-src/apps/ociolutimage/ociolutimage: /usr/local/lib/libImath-2_5.dylib
-src/apps/ociolutimage/ociolutimage: /usr/local/lib/libIex-2_5.dylib
-src/apps/ociolutimage/ociolutimage: /usr/local/lib/libHalf-2_5.dylib
-src/apps/ociolutimage/ociolutimage: /usr/local/lib/libIlmThread-2_5.dylib
-src/apps/ociolutimage/ociolutimage: /usr/local/lib/libIlmImf-2_5.dylib
-src/apps/ociolutimage/ociolutimage: /usr/local/lib/libImath-2_5.dylib
-src/apps/ociolutimage/ociolutimage: /usr/local/lib/libIex-2_5.dylib
-src/apps/ociolutimage/ociolutimage: /usr/local/lib/libHalf-2_5.dylib
-src/apps/ociolutimage/ociolutimage: /usr/local/lib/libIlmThread-2_5.dylib
-src/apps/ociolutimage/ociolutimage: /usr/local/lib/libIlmImf-2_5.dylib
-src/apps/ociolutimage/ociolutimage: /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd
+src/apps/ociolutimage/ociolutimage: /usr/local/lib/libOpenImageIO.dylib
 src/apps/ociolutimage/ociolutimage: src/apps/ociolutimage/CMakeFiles/ociolutimage.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/frankeder/Documents/ocio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ociolutimage"
 	cd /Users/frankeder/Documents/ocio/build/src/apps/ociolutimage && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ociolutimage.dir/link.txt --verbose=$(VERBOSE)

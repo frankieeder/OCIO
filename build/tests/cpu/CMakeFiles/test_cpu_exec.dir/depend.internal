@@ -448,6 +448,7 @@ tests/cpu/CMakeFiles/test_cpu_exec.dir/Op_tests.cpp.o
  /Users/frankeder/Documents/ocio/OpenColorIO/include/OpenColorIO/OpenColorTransforms.h
  /Users/frankeder/Documents/ocio/OpenColorIO/include/OpenColorIO/OpenColorTypes.h
  /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/DynamicProperty.h
+ /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/Logging.h
  /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/MathUtils.h
  /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/Mutex.h
  /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/Op.cpp
@@ -566,6 +567,7 @@ tests/cpu/CMakeFiles/test_cpu_exec.dir/Processor_tests.cpp.o
  /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/ops/gradingtone/GradingTone.h
  /Users/frankeder/Documents/ocio/OpenColorIO/src/utils/StringUtils.h
  /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/Processor_tests.cpp
+ /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/UnitTestLogUtils.h
  /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/UnitTestOptimFlags.h
  /Users/frankeder/Documents/ocio/OpenColorIO/tests/testutils/UnitTest.h
  include/OpenColorIO/OpenColorABI.h
@@ -3879,6 +3881,7 @@ tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/ExposureContrastTransform_test
  /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/ops/gradingtone/GradingTone.h
  /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/transforms/ExposureContrastTransform.cpp
  /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/transforms/ExposureContrastTransform.h
+ /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/UnitTestLogUtils.h
  /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/transforms/ExposureContrastTransform_tests.cpp
  /Users/frankeder/Documents/ocio/OpenColorIO/tests/testutils/UnitTest.h
  include/OpenColorIO/OpenColorABI.h
@@ -3952,6 +3955,7 @@ tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/GradingPrimaryTransform_tests.
  /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/ops/gradingtone/GradingTone.h
  /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/transforms/GradingPrimaryTransform.cpp
  /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/transforms/GradingPrimaryTransform.h
+ /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/UnitTestLogUtils.h
  /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/transforms/GradingPrimaryTransform_tests.cpp
  /Users/frankeder/Documents/ocio/OpenColorIO/tests/testutils/UnitTest.h
  ext/dist/include/OpenEXR/half.h
@@ -3973,6 +3977,7 @@ tests/cpu/CMakeFiles/test_cpu_exec.dir/transforms/GradingRGBCurveTransform_tests
  /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/ops/gradingtone/GradingTone.h
  /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/transforms/GradingRGBCurveTransform.cpp
  /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/transforms/GradingRGBCurveTransform.h
+ /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/UnitTestLogUtils.h
  /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/transforms/GradingRGBCurveTransform_tests.cpp
  /Users/frankeder/Documents/ocio/OpenColorIO/tests/testutils/UnitTest.h
  include/OpenColorIO/OpenColorABI.h

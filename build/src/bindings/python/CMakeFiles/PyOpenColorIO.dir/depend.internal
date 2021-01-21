@@ -4838,6 +4838,7 @@ src/bindings/python/CMakeFiles/PyOpenColorIO.dir/PyProcessor.cpp.o
  /Users/frankeder/Documents/ocio/OpenColorIO/include/OpenColorIO/OpenColorTransforms.h
  /Users/frankeder/Documents/ocio/OpenColorIO/include/OpenColorIO/OpenColorTypes.h
  /Users/frankeder/Documents/ocio/OpenColorIO/share/docs/docstrings.h
+ /Users/frankeder/Documents/ocio/OpenColorIO/src/bindings/python/PyDynamicProperty.h
  /Users/frankeder/Documents/ocio/OpenColorIO/src/bindings/python/PyOpenColorIO.h
  /Users/frankeder/Documents/ocio/OpenColorIO/src/bindings/python/PyProcessor.cpp
  /Users/frankeder/Documents/ocio/OpenColorIO/src/bindings/python/PyUtils.h

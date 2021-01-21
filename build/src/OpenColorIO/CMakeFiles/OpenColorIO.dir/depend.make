@@ -465,6 +465,7 @@ src/OpenColorIO/CMakeFiles/OpenColorIO.dir/Op.cpp.o: /Users/frankeder/Documents/
 src/OpenColorIO/CMakeFiles/OpenColorIO.dir/Op.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/include/OpenColorIO/OpenColorTransforms.h
 src/OpenColorIO/CMakeFiles/OpenColorIO.dir/Op.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/include/OpenColorIO/OpenColorTypes.h
 src/OpenColorIO/CMakeFiles/OpenColorIO.dir/Op.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/DynamicProperty.h
+src/OpenColorIO/CMakeFiles/OpenColorIO.dir/Op.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/Logging.h
 src/OpenColorIO/CMakeFiles/OpenColorIO.dir/Op.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/MathUtils.h
 src/OpenColorIO/CMakeFiles/OpenColorIO.dir/Op.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/Mutex.h
 src/OpenColorIO/CMakeFiles/OpenColorIO.dir/Op.cpp.o: /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/Op.cpp

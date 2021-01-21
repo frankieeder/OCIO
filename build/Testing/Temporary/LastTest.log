@@ -1,0 +1,1612 @@
+Start testing: Jan 21 15:26 PST
+----------------------------------------------------------
+1/4 Testing: test_utils_exec
+1/4 Test: test_utils_exec
+Command: "/Users/frankeder/Documents/ocio/build/tests/utils/test_utils_exec"
+Directory: /Users/frankeder/Documents/ocio/build/tests/utils
+"test_utils_exec" start time: Jan 21 15:26 PST
+Output:
+----------------------------------------------------------
+
+ OpenColorIO_Utils_Unit_Tests 
+
+[  1/8] [StringUtils / cases                                         ] - PASSED
+[  2/8] [StringUtils / trim                                          ] - PASSED
+[  3/8] [StringUtils / split                                         ] - PASSED
+[  4/8] [StringUtils / searches                                      ] - PASSED
+[  5/8] [StringUtils / replace                                       ] - PASSED
+[  6/8] [StringUtils / split_whitespaces                             ] - PASSED
+[  7/8] [StringUtils / find                                          ] - PASSED
+[  8/8] [StringUtils / remove_contain                                ] - PASSED
+
+
+0 tests failed with 0 errors.
+
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"test_utils_exec" end time: Jan 21 15:26 PST
+"test_utils_exec" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: test_cpu
+2/4 Test: test_cpu
+Command: "/Users/frankeder/Documents/ocio/build/tests/cpu/test_cpu_exec"
+Directory: /Users/frankeder/Documents/ocio/build/tests/cpu
+"test_cpu" start time: Jan 21 15:26 PST
+Output:
+----------------------------------------------------------
+
+ OpenColorIO_Core_Unit_Tests 
+
+[  1/990] [CategoryHelpers / categories                                ] - PASSED
+[  2/990] [CategoryHelpers / basic                                     ] - PASSED
+[  3/990] [ColorSpaceInfo / read_values                                ] - PASSED
+[  4/990] [ColorSpaceInfo / change_values                              ] - PASSED
+[  5/990] [ColorSpaceMenuHelper / no_color_spaces                      ] - PASSED
+[  6/990] [ColorSpaceMenuHelper / categories                           ] - PASSED
+[  7/990] [ColorSpaceMenuHelper / user_categories                      ] - PASSED
+[  8/990] [ColorSpaceMenuHelper / encodings                            ] - PASSED
+[  9/990] [ColorSpaceMenuHelper / no_category                          ] - PASSED
+[ 10/990] [ColorSpaceMenuHelper / input_color_transformation           ] - PASSED
+[ 11/990] [ColorSpaceMenuHelper / additional_color_space               ] - PASSED
+[ 12/990] [DisplayViewHelpers / basic                                  ] - PASSED
+[ 13/990] [DisplayViewHelpers / display_view_without_look              ] - PASSED
+[ 14/990] [DisplayViewHelpers / active_display_view                    ] - PASSED
+[ 15/990] [DisplayViewHelpers / remove_display_view                    ] - PASSED
+[ 16/990] [DisplayViewHelpers / identity_processor                     ] - PASSED
+[ 17/990] [LegacyViewingPipeline / basic                               ] - PASSED
+[ 18/990] [LegacyViewingPipeline / processorWithLooks                  ] - PASSED
+[ 19/990] [LegacyViewingPipeline / fullPipelineNoLook                  ] - PASSED
+[ 20/990] [MixingColorSpaceManager / basic                             ] - PASSED
+[ 21/990] [MixingColorSpaceManager / color_picker_role                 ] - PASSED
+[ 22/990] [MixingSlider / basic                                        ] - PASSED
+[ 23/990] [MixingSlider / color_picker_role                            ] - PASSED
+[ 24/990] [Baker / bake                                                ] - PASSED
+[ 25/990] [Baker / empty_config                                        ] - PASSED
+[ 26/990] [BitDepthUtils / get_bitdepth_max_value                      ] - PASSED
+[ 27/990] [BitDepthUtils / is_float_bitdepth                           ] - PASSED
+[ 28/990] [BitDepthUtils / get_channel_size                            ] - PASSED
+[ 29/990] [Caching / generic_cache                                     ] - PASSED
+[ 30/990] [Caching / processor_cache                                   ] - PASSED
+[ 31/990] [ColorSpace / basic                                          ] - PASSED
+[ 32/990] [ColorSpace / alias                                          ] - PASSED
+[ 33/990] [ColorSpace / category                                       ] - PASSED
+[ 34/990] [Config / color_space_serialize                              ] - PASSED
+[ 35/990] [Config / use_alias                                          ] - PASSED
+[ 36/990] [ColorSpaceSet / basic                                       ] - PASSED
+[ 37/990] [ColorSpaceSet / decoupled_sets                              ] - PASSED
+[ 38/990] [ColorSpaceSet / order_validation                            ] - PASSED
+[ 39/990] [ColorSpaceSet / operations_on_set                           ] - PASSED
+[ 40/990] [Config / internal_raw_profile                               ] - PASSED
+[ 41/990] [Config / create_raw_config                                  ] - PASSED
+[ 42/990] [Config / simple_config                                      ] - PASSED
+[ 43/990] [Config / colorspace_duplicate                               ] - PASSED
+[ 44/990] [Config / cdltransform_duplicate                             ] - PASSED
+[ 45/990] [Config / searchpath_duplicate                               ] - PASSED
+[ 46/990] [Config / roles                                              ] - PASSED
+[ 47/990] [Config / serialize_group_transform                          ] - PASSED
+[ 48/990] [Config / serialize_searchpath                               ] - PASSED
+[ 49/990] [Config / validation                                         ] - PASSED
+[ 50/990] [Config / context_variable_v1                                ] - PASSED
+[ 51/990] [Config / context_variable_faulty_cases                      ] - PASSED
+[ 52/990] [Config / context_variable                                   ] - PASSED
+[ 53/990] [Config / context_variable_with_sanity_check                 ] - PASSED
+[ 54/990] [Config / colorspacename_with_reserved_token                 ] - PASSED
+[ 55/990] [Config / context_variable_with_colorspacename               ] - PASSED
+[ 56/990] [Config / context_variable_with_role                         ] - PASSED
+[ 57/990] [Config / context_variable_with_display_view                 ] - PASSED
+[ 58/990] [Config / context_variable_with_search_path                  ] - PASSED
+[ 59/990] [Config / role_without_colorspace                            ] - PASSED
+[ 60/990] [Config / env_colorspace_name                                ] - PASSED
+[ 61/990] [Config / version                                            ] - PASSED
+[ 62/990] [Config / version_validation                                 ] - PASSED
+[ 63/990] [Config / serialize_colorspace_displayview_transforms        ] - PASSED
+[ 64/990] [Config / range_serialization                                ] - PASSED
+[ 65/990] [Config / exponent_serialization                             ] - PASSED
+[ 66/990] [Config / exponent_with_linear_serialization                 ] - PASSED
+[ 67/990] [Config / exponent_vs_config_version                         ] - PASSED
+[ 68/990] [Config / categories                                         ] - PASSED
+[ 69/990] [Config / display                                            ] - PASSED
+[ 70/990] [Config / view                                               ] - PASSED
+[ 71/990] [Config / display_view_order                                 ] - PASSED
+[ 72/990] [Config / log_serialization                                  ] - PASSED
+[ 73/990] [Config / key_value_error                                    ] - PASSED
+[ 74/990] [Config / unknown_key_error                                  ] - PASSED
+[ 75/990] [Config / grading_primary_serialization                      ] - PASSED
+[ 76/990] [Config / grading_rgbcurve_serialization                     ] - PASSED
+[ 77/990] [Config / grading_tone_serialization                         ] - PASSED
+[ 78/990] [Config / fixed_function_serialization                       ] - PASSED
+[ 79/990] [Config / exposure_contrast_serialization                    ] - PASSED
+[ 80/990] [Config / matrix_serialization                               ] - PASSED
+[ 81/990] [Config / cdl_serialization                                  ] - PASSED
+[ 82/990] [Config / file_transform_serialization                       ] - PASSED
+[ 83/990] [Config / file_transform_serialization_v1                    ] - PASSED
+[ 84/990] [Config / add_color_space                                    ] - PASSED
+[ 85/990] [Config / faulty_config_file                                 ] - PASSED
+[ 86/990] [Config / remove_color_space                                 ] - PASSED
+[ 87/990] [Config / inactive_color_space                               ] - PASSED
+[ 88/990] [Config / inactive_color_space_precedence                    ] - PASSED
+[ 89/990] [Config / inactive_color_space_read_write                    ] - PASSED
+[ 90/990] [Config / two_configs                                        ] - PASSED
+[ 91/990] [Config / display_color_spaces_serialization                 ] - PASSED
+[ 92/990] [Config / display_color_spaces_errors                        ] - PASSED
+[ 93/990] [Config / config_v1                                          ] - PASSED
+[ 94/990] [Config / view_transforms                                    ] - PASSED
+[ 95/990] [Config / display_view                                       ] - PASSED
+[ 96/990] [Config / not_case_sensitive                                 ] - PASSED
+[ 97/990] [Config / transform_with_roles                               ] - PASSED
+[ 98/990] [Config / look_transform                                     ] - PASSED
+[ 99/990] [Config / family_separator                                   ] - PASSED
+[100/990] [Config / add_remove_display                                 ] - PASSED
+[101/990] [Config / is_colorspace_used                                 ] - PASSED
+[102/990] [Config / transform_versions                                 ] - PASSED
+[103/990] [Config / dynamic_properties                                 ] - PASSED
+[104/990] [Config / builtin_transforms                                 ] - PASSED
+[105/990] [Config / config_context_cacheids                            ] - PASSED
+[106/990] [Config / processor_cache_with_context_variables             ] - PASSED
+[107/990] [Config / context_variables_typical_use_cases                ] - PASSED
+[108/990] [Config / virtual_display                                    ] - PASSED
+[109/990] [Config / virtual_display_with_active_displays               ] - PASSED
+[110/990] [Config / virtual_display_v2_only                            ] - PASSED
+[111/990] [Config / virtual_display_exceptions                         ] - PASSED
+[112/990] [Config / description_and_name                               ] - PASSED
+[113/990] [Config / alias_validation                                   ] - PASSED
+[114/990] [Config / get_processor_alias                                ] - PASSED
+[115/990] [Context / search_paths                                      ] - PASSED
+[116/990] [Context / abs_path                                          ] - PASSED
+[117/990] [Context / var_search_path                                   ] - PASSED
+[118/990] [Context / use_searchpaths                                   ] - PASSED
+[119/990] [Context / use_searchpaths_workingdir                        ] - PASSED
+[120/990] [Context / string_vars                                       ] - PASSED
+[121/990] [ContextVariableUtils / env_check                            ] - PASSED
+[122/990] [ContextVariableUtils / env_expand                           ] - PASSED
+[123/990] [CPUProcessor / flag_composition                             ] - PASSED
+[124/990] [CPUProcessor / with_one_matrix                              ] - PASSED
+[125/990] [CPUProcessor / with_one_1d_lut                              ] - PASSED
+[126/990] [CPUProcessor / with_several_ops                             ] - PASSED
+[127/990] [CPUProcessor / image_desc                                   ] - PASSED
+[128/990] [CPUProcessor / planar_vs_packed                             ] - PASSED
+[129/990] [CPUProcessor / scanline_helper_packed                       ] - PASSED
+[130/990] [CPUProcessor / scanline_helper_packed_one_buffer            ] - PASSED
+[131/990] [CPUProcessor / scanline_helper_planar                       ] - PASSED
+[132/990] [CPUProcessor / scanline_helper_tile                         ] - PASSED
+[133/990] [CPUProcessor / custom_scanlines                             ] - PASSED
+[134/990] [CPUProcessor / one_pixel                                    ] - PASSED
+[135/990] [CPUProcessor / optimizations                                ] - PASSED
+[136/990] [SharedViews / basic                                         ] - PASSED
+[137/990] [DynamicPropertyImpl / basic                                 ] - PASSED
+[138/990] [DynamicPropertyImpl / equal_double                          ] - PASSED
+[139/990] [DynamicProperty / get_dynamic_via_cpu_processor             ] - PASSED
+[140/990] [DynamicPropertyImpl / equal_grading_primary                 ] - PASSED
+[141/990] [DynamicPropertyImpl / equal_grading_rgb_curve               ] - PASSED
+[142/990] [DynamicPropertyImpl / grading_rgb_curve_knots               ] - PASSED
+[143/990] [DynamicPropertyImpl / get_as                                ] - PASSED
+[144/990] [Exception / basic                                           ] - PASSED
+[145/990] [Exception / missing_file                                    ] - PASSED
+[146/990] [CTFVersion / read_version                                   ] - PASSED
+[147/990] [CTFVersion / version_write                                  ] - PASSED
+[148/990] [CTFReaderTransform / accessors                              ] - PASSED
+[149/990] [IndexMapping / test_accessors                               ] - PASSED
+[150/990] [IndexMapping / range_validation                             ] - PASSED
+[151/990] [IndexMapping / equality                                     ] - PASSED
+[152/990] [FileFormat3DL / format_info                                 ] - PASSED
+[153/990] [FileFormat3DL / bake                                        ] - PASSED
+[154/990] [FileFormat3DL / get_likely_lut_bitdepth                     ] - PASSED
+[155/990] [FileFormat3DL / load                                        ] - PASSED
+[156/990] [FileFormat3DL / parse_1d                                    ] - PASSED
+[157/990] [FileFormatCC / test_cc1                                     ] - PASSED
+[158/990] [FileFormatCC / test_cc2                                     ] - PASSED
+[159/990] [FileFormatCC / test_cc_sat_node                             ] - PASSED
+[160/990] [FileFormatCC / test_cc_asc_sat                              ] - PASSED
+[161/990] [FileFormatCC / test_cc_asc_sop                              ] - PASSED
+[162/990] [FileFormatCC / test_cc2_load_save                           ] - PASSED
+[163/990] [FileFormatCCC / read                                        ] - PASSED
+[164/990] [FileFormatCCC / write                                       ] - PASSED
+[165/990] [FileFormatCDL / test_cdl                                    ] - PASSED
+[166/990] [FileFormatCDL / write                                       ] - PASSED
+[167/990] [FileFormatCSP / simple_1d                                   ] - PASSED
+[168/990] [FileFormatCSP / simple_3d                                   ] - PASSED
+[169/990] [FileFormatCSP / complete_3d                                 ] - PASSED
+[170/990] [FileFormatCSP / shaper_hdr                                  ] - PASSED
+[171/990] [FileFormatCSP / no_shaper                                   ] - PASSED
+[172/990] [FileFormatCSP / less_strict_parse                           ] - PASSED
+[173/990] [FileFormatCSP / failures_1d                                 ] - PASSED
+[174/990] [FileFormatCSP / failures_3d                                 ] - PASSED
+[175/990] [FileFormatCTF / missing_file                                ] - PASSED
+[176/990] [FileFormatCTF / clf_examples                                ] - PASSED
+[177/990] [FileFormatCTF / matrix4x4                                   ] - PASSED
+[178/990] [FileFormatCTF / matrix_with_offset                          ] - PASSED
+[179/990] [FileFormatCTF / matrix_with_offset_1_3                      ] - PASSED
+[180/990] [FileFormatCTF / matrix_1_3_3x3                              ] - PASSED
+[181/990] [FileFormatCTF / matrix_1_3_4x4                              ] - PASSED
+[182/990] [FileFormatCTF / matrix_1_3_offsets                          ] - PASSED
+[183/990] [FileFormatCTF / matrix_1_3_alpha_offsets                    ] - PASSED
+[184/990] [FileFormatCTF / matrix_identity                             ] - PASSED
+[185/990] [FileFormatCTF / lut_1d                                      ] - PASSED
+[186/990] [FileFormatCTF / lut1d_hue_adjust_invalid_style              ] - PASSED
+[187/990] [FileFormatCTF / lut_3by1d_with_nan_infinity                 ] - PASSED
+[188/990] [FileFormatCTF / lut1d_half_domain_set_false                 ] - PASSED
+[189/990] [FileFormatCTF / lut1d_raw_half_set_false                    ] - PASSED
+[190/990] [FileFormatCTF / lut1d_half_domain_raw_half_set              ] - PASSED
+[191/990] [FileFormatCTF / lut1d_half_domain_missing_values            ] - PASSED
+[192/990] [FileFormatCTF / 3by1d_lut                                   ] - PASSED
+[193/990] [FileFormatCTF / lut1d_inv                                   ] - PASSED
+[194/990] [FileFormatCTF / invlut1d_clf                                ] - PASSED
+[195/990] [FileFormatCTF / lut3d                                       ] - PASSED
+[196/990] [FileFormatCTF / lut3d_inv                                   ] - PASSED
+[197/990] [FileFormatCTF / lut3d_unequal_size                          ] - PASSED
+[198/990] [FileFormatCTF / tabluation_support                          ] - PASSED
+[199/990] [FileFormatCTF / matrix_windows_eol                          ] - PASSED
+[200/990] [FileFormatCTF / check_utf8                                  ] - PASSED
+[201/990] [FileFormatCTF / info_example                                ] - PASSED
+[202/990] [FileFormatCTF / difficult_syntax                            ] - PASSED
+[203/990] [FileFormatCTF / difficult_xml_unknown_elements              ] - PASSED
+[204/990] [FileFormatCTF / unknown_elements                            ] - PASSED
+[205/990] [FileFormatCTF / wrong_format                                ] - PASSED
+[206/990] [FileFormatCTF / binary_file                                 ] - PASSED
+[207/990] [FileFormatCTF / process_list_invalid_version                ] - PASSED
+[208/990] [FileFormatCTF / clf_process_list_bad_version                ] - PASSED
+[209/990] [FileFormatCTF / process_list_valid_version                  ] - PASSED
+[210/990] [FileFormatCTF / process_list_higher_version                 ] - PASSED
+[211/990] [FileFormatCTF / clf_process_list_higher_version             ] - PASSED
+[212/990] [FileFormatCTF / process_list_version_revision               ] - PASSED
+[213/990] [FileFormatCTF / process_list_no_version                     ] - PASSED
+[214/990] [FileFormatCTF / info_element_version_test                   ] - PASSED
+[215/990] [FileFormatCTF / process_list_missing                        ] - PASSED
+[216/990] [FileFormatCTF / transform_missing                           ] - PASSED
+[217/990] [FileFormatCTF / transform_element_end_missing               ] - PASSED
+[218/990] [FileFormatCTF / transform_missing_id                        ] - PASSED
+[219/990] [FileFormatCTF / transform_missing_inbitdepth                ] - PASSED
+[220/990] [FileFormatCTF / transform_missing_outbitdepth               ] - PASSED
+[221/990] [FileFormatCTF / array_missing_values                        ] - PASSED
+[222/990] [FileFormatCTF / array_bad_value                             ] - PASSED
+[223/990] [FileFormatCTF / array_bad_dimension                         ] - PASSED
+[224/990] [FileFormatCTF / array_too_many_values                       ] - PASSED
+[225/990] [FileFormatCTF / matrix_end_missing                          ] - PASSED
+[226/990] [FileFormatCTF / transform_bad_outdepth                      ] - PASSED
+[227/990] [FileFormatCTF / transform_end_missing                       ] - PASSED
+[228/990] [FileFormatCTF / transform_corrupted_tag                     ] - PASSED
+[229/990] [FileFormatCTF / transform_empty                             ] - PASSED
+[230/990] [FileFormatCTF / transform_id_empty                          ] - PASSED
+[231/990] [FileFormatCTF / transform_with_bitdepth_mismatch            ] - PASSED
+[232/990] [FileFormatCTF / inverse_of_id_test                          ] - PASSED
+[233/990] [FileFormatCTF / range_default                               ] - PASSED
+[234/990] [FileFormatCTF / range_test1_clamp                           ] - PASSED
+[235/990] [FileFormatCTF / range_test1_noclamp                         ] - PASSED
+[236/990] [FileFormatCTF / range_test2                                 ] - PASSED
+[237/990] [FileFormatCTF / range_nonmatching_clamp                     ] - PASSED
+[238/990] [FileFormatCTF / range_empty                                 ] - PASSED
+[239/990] [FileFormatCTF / range_bad_noclamp                           ] - PASSED
+[240/990] [FileFormatCTF / indexMap_test                               ] - PASSED
+[241/990] [FileFormatCTF / indexMap_test1_clfv2                        ] - PASSED
+[242/990] [FileFormatCTF / indexMap_test2_clfv2                        ] - PASSED
+[243/990] [FileFormatCTF / clf3_index_map                              ] - PASSED
+[244/990] [FileFormatCTF / indexMap_test3                              ] - PASSED
+[245/990] [FileFormatCTF / indexMap_test4_clfv2                        ] - PASSED
+[246/990] [FileFormatCTF / gamma_test1                                 ] - PASSED
+[247/990] [FileFormatCTF / gamma_test2                                 ] - PASSED
+[248/990] [FileFormatCTF / gamma_test3                                 ] - PASSED
+[249/990] [FileFormatCTF / gamma_test4                                 ] - PASSED
+[250/990] [FileFormatCTF / gamma_test5                                 ] - PASSED
+[251/990] [FileFormatCTF / gamma_test6                                 ] - PASSED
+[252/990] [FileFormatCTF / gamma_alpha_test1                           ] - PASSED
+[253/990] [FileFormatCTF / gamma_alpha_test2                           ] - PASSED
+[254/990] [FileFormatCTF / gamma_alpha_test3                           ] - PASSED
+[255/990] [FileFormatCTF / gamma_alpha_test4                           ] - PASSED
+[256/990] [FileFormatCTF / gamma_alpha_test5                           ] - PASSED
+[257/990] [FileFormatCTF / gamma_alpha_test6                           ] - PASSED
+[258/990] [FileFormatCTF / exponent_bad_value                          ] - PASSED
+[259/990] [FileFormatCTF / exponent_bad_param                          ] - PASSED
+[260/990] [FileFormatCTF / exponent_all_styles                         ] - PASSED
+[261/990] [FileFormatCTF / clf2_exponent_parse                         ] - PASSED
+[262/990] [FileFormatCTF / cdl_clamp_fwd                               ] - PASSED
+[263/990] [FileFormatCTF / cdl_missing_style                           ] - PASSED
+[264/990] [FileFormatCTF / cdl_all_styles                              ] - PASSED
+[265/990] [FileFormatCTF / cdl_bad_slope                               ] - PASSED
+[266/990] [FileFormatCTF / cdl_bad_sat                                 ] - PASSED
+[267/990] [FileFormatCTF / cdl_bad_power                               ] - PASSED
+[268/990] [FileFormatCTF / cdl_missing_slope                           ] - PASSED
+[269/990] [FileFormatCTF / cdl_missing_offset                          ] - PASSED
+[270/990] [FileFormatCTF / cdl_missing_power                           ] - PASSED
+[271/990] [FileFormatCTF / cdl_bad_style                               ] - PASSED
+[272/990] [FileFormatCTF / cdl_missing_sop                             ] - PASSED
+[273/990] [FileFormatCTF / cdl_missing_sat                             ] - PASSED
+[274/990] [FileFormatCTF / cdl_various_in_ctf                          ] - PASSED
+[275/990] [FileFormatCTF / log_all_styles                              ] - PASSED
+[276/990] [FileFormatCTF / log_logtolin                                ] - PASSED
+[277/990] [FileFormatCTF / log_logtolinv2                              ] - PASSED
+[278/990] [FileFormatCTF / log_lintolog_3chan                          ] - PASSED
+[279/990] [FileFormatCTF / log_bad_style                               ] - PASSED
+[280/990] [FileFormatCTF / log_bad_version                             ] - PASSED
+[281/990] [FileFormatCTF / log_bad_param                               ] - PASSED
+[282/990] [FileFormatCTF / log_missing_breakpnt                        ] - PASSED
+[283/990] [FileFormatCTF / log_ocio_params_channels                    ] - PASSED
+[284/990] [FileFormatCTF / log_ocio_params_base_missmatch              ] - PASSED
+[285/990] [FileFormatCTF / log_default_params                          ] - PASSED
+[286/990] [FileFormatCTF / multiple_ops                                ] - PASSED
+[287/990] [FileFormatCTF / reference_load_alias                        ] - PASSED
+[288/990] [FileFormatCTF / reference_load_path                         ] - PASSED
+[289/990] [FileFormatCTF / reference_load_multiple                     ] - PASSED
+[290/990] [FileFormatCTF / reference_load_path_utf8                    ] - PASSED
+[291/990] [FileFormatCTF / reference_load_alias_path                   ] - PASSED
+[292/990] [FileFormatCTF / exposure_contrast_video                     ] - PASSED
+[293/990] [FileFormatCTF / exposure_contrast_log                       ] - PASSED
+[294/990] [FileFormatCTF / exposure_contrast_linear                    ] - PASSED
+[295/990] [FileFormatCTF / exposure_contrast_no_gamma                  ] - PASSED
+[296/990] [FileFormatCTF / exposure_contrast_failures                  ] - PASSED
+[297/990] [FileFormatCTF / attribute_float_parse_extra_values          ] - PASSED
+[298/990] [FileFormatCTF / attribute_float_parse_leading_spaces        ] - PASSED
+[299/990] [FileFormatCTF / load_deprecated_ops_file                    ] - PASSED
+[300/990] [FileFormatCTF / load_fixed_function_file                    ] - PASSED
+[301/990] [FileFormatCTF / ff_load_save_ctf                            ] - PASSED
+[302/990] [FileFormatCTF / load_ff_fail_version                        ] - PASSED
+[303/990] [FileFormatCTF / load_ff_fail_params                         ] - PASSED
+[304/990] [FileFormatCTF / load_ff_fail_style                          ] - PASSED
+[305/990] [FileFormatCTF / load_ff_aces_fail_gamma_param               ] - PASSED
+[306/990] [FileFormatCTF / load_ff_aces_fail_gamma_twice               ] - PASSED
+[307/990] [FileFormatCTF / load_ff_aces_fail_missing_param             ] - PASSED
+[308/990] [FileFormatCTF / load_grading_primary_log                    ] - PASSED
+[309/990] [FileFormatCTF / load_grading_primary_lin                    ] - PASSED
+[310/990] [FileFormatCTF / load_grading_primary_video                  ] - PASSED
+[311/990] [FileFormatCTF / load_grading_primary_errors                 ] - PASSED
+[312/990] [FileFormatCTF / load_grading_curves_lin                     ] - PASSED
+[313/990] [FileFormatCTF / load_grading_curves_log                     ] - PASSED
+[314/990] [FileFormatCTF / load_grading_curves_errors                  ] - PASSED
+[315/990] [CTFTransform / load_grading_tone                            ] - PASSED
+[316/990] [CTFTransform / load_grading_tone_errors                     ] - PASSED
+[317/990] [CTFTransform / load_edit_save_matrix                        ] - PASSED
+[318/990] [CTFTransform / save_matrix                                  ] - PASSED
+[319/990] [CTFTransform / save_cdl                                     ] - PASSED
+[320/990] [CTFTransform / save_log                                     ] - PASSED
+[321/990] [CTFTransform / save_log_affine                              ] - PASSED
+[322/990] [CTFTransform / save_log_camera                              ] - PASSED
+[323/990] [CTFTransform / save_lut_1d_1component                       ] - PASSED
+[324/990] [CTFTransform / save_lut_1d_3components                      ] - PASSED
+[325/990] [CTFTransform / save_invlut_1d_3components                   ] - PASSED
+[326/990] [CTFTransform / save_lut1d_halfdomain                        ] - PASSED
+[327/990] [CTFTransform / save_lut1d_f16_raw                           ] - PASSED
+[328/990] [CTFTransform / save_lut1d_f32                               ] - PASSED
+[329/990] [CTFTransform / save_lut1d_interpolation                     ] - PASSED
+[330/990] [CTFTransform / save_invalid_lut_1d                          ] - PASSED
+[331/990] [CTFTransform / save_lut_3d                                  ] - PASSED
+[332/990] [CTFTransform / save_range                                   ] - PASSED
+[333/990] [CTFTransform / save_group                                   ] - PASSED
+[334/990] [CTFTransform / load_save_matrix                             ] - PASSED
+[335/990] [CTFTransform / save_matrix_444                              ] - PASSED
+[336/990] [CTFTransform / load_edit_save_matrix_clf                    ] - PASSED
+[337/990] [CTFTransform / matrix3x3_clf                                ] - PASSED
+[338/990] [CTFTransform / matrix_offset_alpha_ctf                      ] - PASSED
+[339/990] [CTFTransform / matrix_offset_alpha_bitdepth_ctf             ] - PASSED
+[340/990] [CTFTransform / matrix_offset_alpha_inverse_ctf              ] - PASSED
+[341/990] [CTFTransform / legacy_cdl                                   ] - PASSED
+[342/990] [CTFTransform / cdl_clf                                      ] - PASSED
+[343/990] [CTFTransform / cdl_ctf                                      ] - PASSED
+[344/990] [CTFTransform / range_ctf                                    ] - PASSED
+[345/990] [CTFTransform / range1_clf                                   ] - PASSED
+[346/990] [CTFTransform / range2_clf                                   ] - PASSED
+[347/990] [CTFTransform / range3_clf                                   ] - PASSED
+[348/990] [CTFTransform / range4_clf                                   ] - PASSED
+[349/990] [CTFTransform / exponent_ctf                                 ] - PASSED
+[350/990] [CTFTransform / gamma1_ctf                                   ] - PASSED
+[351/990] [CTFTransform / gamma1_mirror_ctf                            ] - PASSED
+[352/990] [CTFTransform / gamma1_pass_thru_ctf                         ] - PASSED
+[353/990] [CTFTransform / gamma2_ctf                                   ] - PASSED
+[354/990] [CTFTransform / gamma3_ctf                                   ] - PASSED
+[355/990] [CTFTransform / gamma4_ctf                                   ] - PASSED
+[356/990] [CTFTransform / gamma5_ctf                                   ] - PASSED
+[357/990] [CTFTransform / gamma6_ctf                                   ] - PASSED
+[358/990] [CTFTransform / fixed_function_rec2100_ctf                   ] - PASSED
+[359/990] [CTFTransform / fixed_function_rec2100_inverse_ctf           ] - PASSED
+[360/990] [CTFTransform / exposure_contrast_video_ctf                  ] - PASSED
+[361/990] [CTFTransform / exposure_contrast_log_ctf                    ] - PASSED
+[362/990] [CTFTransform / exposure_contrast_linear_ctf                 ] - PASSED
+[363/990] [CTFTransform / exposure_contrast_not_dynamic_ctf            ] - PASSED
+[364/990] [CTFTransform / exposure_contrast_log_params_ctf             ] - PASSED
+[365/990] [CTFTransform / grading_primary_log_ctf                      ] - PASSED
+[366/990] [CTFTransform / grading_primary_lin_ctf                      ] - PASSED
+[367/990] [CTFTransform / grading_primary_video_ctf                    ] - PASSED
+[368/990] [CTFTransform / grading_rgbcurve_log_ctf                     ] - PASSED
+[369/990] [CTFTransform / grading_rgbcurve_video_ctf                   ] - PASSED
+[370/990] [CTFTransform / grading_rgbcurve_lin_ctf                     ] - PASSED
+[371/990] [CTFTransform / grading_tone_log_ctf                         ] - PASSED
+[372/990] [CTFTransform / grading_tone_lin_ctf                         ] - PASSED
+[373/990] [CTFTransform / grading_tone_video_ctf                       ] - PASSED
+[374/990] [CTFTransform / log_lin_to_log_ctf                           ] - PASSED
+[375/990] [CTFTransform / log_log_to_lin_ctf                           ] - PASSED
+[376/990] [CTFTransform / log_antilog2_ctf                             ] - PASSED
+[377/990] [CTFTransform / lut1d_clf                                    ] - PASSED
+[378/990] [CTFTransform / lut1d_inverse_clf                            ] - PASSED
+[379/990] [CTFTransform / lut1d_ctf                                    ] - PASSED
+[380/990] [CTFTransform / lut1d_attributes_ctf                         ] - PASSED
+[381/990] [CTFTransform / lut1d_array_16x1_ctf                         ] - PASSED
+[382/990] [CTFTransform / lut1d_array_16x3_ctf                         ] - PASSED
+[383/990] [CTFTransform / lut1d_10i_ctf                                ] - PASSED
+[384/990] [CTFTransform / lut1d_inverse_ctf                            ] - PASSED
+[385/990] [CTFTransform / lut3d_array_ctf                              ] - PASSED
+[386/990] [CTFTransform / lut3d_inverse_clf                            ] - PASSED
+[387/990] [CTFTransform / lut3d_inverse_ctf                            ] - PASSED
+[388/990] [CTFTransform / save_lut3d_interpolation                     ] - PASSED
+[389/990] [CTFTransform / bitdepth_ctf                                 ] - PASSED
+[390/990] [CTFTransform / no_ops_ctf                                   ] - PASSED
+[391/990] [FileFormatCTF / bake_1d                                     ] - PASSED
+[392/990] [FileFormatCTF / bake_3d                                     ] - PASSED
+[393/990] [FileFormatCTF / bake_1d_3d                                  ] - PASSED
+[394/990] [FileFormatCTF / lut_interpolation_option                    ] - PASSED
+[395/990] [FileFormatD1DL / test_string_util                           ] - PASSED
+[396/990] [FileFormatD1DL / test_lut1d_8i_8i                           ] - PASSED
+[397/990] [FileFormatD1DL / test_lut1d_12i_16f                         ] - PASSED
+[398/990] [FileFormatD1DL / test_lut1d_16f_16f                         ] - PASSED
+[399/990] [FileFormatD1DL / test_lut1d_16f_12i                         ] - PASSED
+[400/990] [FileFormatD1DL / test_bad_file                              ] - PASSED
+[401/990] [FileFormatHDL / read_1d                                     ] - PASSED
+[402/990] [FileFormatHDL / bake_1d                                     ] - PASSED
+[403/990] [FileFormatHDL / read_3d                                     ] - PASSED
+[404/990] [FileFormatHDL / bake_3d                                     ] - PASSED
+[405/990] [FileFormatHDL / read_3d_1d                                  ] - PASSED
+[406/990] [FileFormatHDL / bake_3d_1d                                  ] - PASSED
+[407/990] [FileFormatHDL / look_test                                   ] - PASSED
+[408/990] [FileFormatICC / types                                       ] - PASSED
+[409/990] [FileFormatICC / test_file                                   ] - PASSED
+[410/990] [FileFormatICC / test_apply                                  ] - PASSED
+[411/990] [FileFormatICC / endian                                      ] - PASSED
+[412/990] [FileFormatIridasCube / format_info                          ] - PASSED
+[413/990] [FileFormatIridasCube / read_failure                         ] - PASSED
+[414/990] [FileFormatIridasCube / no_shaper                            ] - PASSED
+[415/990] [FileFormatIridasCube / load_1d_op                           ] - PASSED
+[416/990] [FileFormatIridasCube / load_3d_op                           ] - PASSED
+[417/990] [FileFormatIridasItx / read_failure                          ] - PASSED
+[418/990] [FileFormatIridasItx / load_3d_op                            ] - PASSED
+[419/990] [FileFormatIridasLook / hexasciitoint                        ] - PASSED
+[420/990] [FileFormatIridasLook / hexasciitofloat                      ] - PASSED
+[421/990] [FileFormatIridasLook / simple3d                             ] - PASSED
+[422/990] [FileFormatIridasLook / fail_on_mask                         ] - PASSED
+[423/990] [FileFormatPandora / format_info                             ] - PASSED
+[424/990] [FileFormatPandora / read_failure                            ] - PASSED
+[425/990] [FileFormatPandora / load_op                                 ] - PASSED
+[426/990] [FileFormatResolveCube / format_info                         ] - PASSED
+[427/990] [FileFormatResolveCube / read_1d                             ] - PASSED
+[428/990] [FileFormatResolveCube / read_3d                             ] - PASSED
+[429/990] [FileFormatResolveCube / read_1d_3d                          ] - PASSED
+[430/990] [FileFormatResolveCube / read_default_range                  ] - PASSED
+[431/990] [FileFormatResolveCube / read_failure                        ] - PASSED
+[432/990] [FileFormatResolveCube / bake_1d                             ] - PASSED
+[433/990] [FileFormatResolveCube / bake_3d                             ] - PASSED
+[434/990] [FileFormatResolveCube / bake_1d_3d                          ] - PASSED
+[435/990] [FileFormatResolveCube / load_ops                            ] - PASSED
+[436/990] [FileFormatSpi1D / format_info                               ] - PASSED
+[437/990] [FileFormatSpi1D / test                                      ] - PASSED
+[438/990] [FileFormatSpi1D / read_failure                              ] - PASSED
+[439/990] [FileFormatSpi1D / identity                                  ] - PASSED
+[440/990] [FileFormatSpi3D / format_info                               ] - PASSED
+[441/990] [FileFormatSpi3D / test                                      ] - PASSED
+[442/990] [FileFormatSpi3D / read_failure                              ] - PASSED
+[443/990] [FileFormatSpi3D / lut_interpolation_option                  ] - PASSED
+[444/990] [FileFormatSpiMtx / FormatInfo                               ] - PASSED
+[445/990] [FileFormatSpiMtx / Test                                     ] - PASSED
+[446/990] [FileFormatSpiMtx / ReadOffset                               ] - PASSED
+[447/990] [FileFormatSpiMtx / ReadFailure                              ] - PASSED
+[448/990] [FileFormatTruelight / shaper_and_lut_3d                     ] - PASSED
+[449/990] [FileFormatTruelight / shaper                                ] - PASSED
+[450/990] [FileFormatTruelight / lut_3d                                ] - PASSED
+[451/990] [FileFormatVF / format_info                                  ] - PASSED
+[452/990] [FileFormatVF / read_failure                                 ] - PASSED
+[453/990] [FileFormatVF / load_ops                                     ] - PASSED
+[454/990] [FormatMetadataImpl / test_accessors                         ] - PASSED
+[455/990] [FormatMetadataImpl / helpers                                ] - PASSED
+[456/990] [FormatMetadataImpl / combine                                ] - PASSED
+[457/990] [XMLReaderHelper / string_to_float                           ] - PASSED
+[458/990] [XMLReaderHelper / string_to_float_failure                   ] - PASSED
+[459/990] [XMLReaderHelper / get_numbers                               ] - PASSED
+[460/990] [XMLReaderHelper / trim                                      ] - PASSED
+[461/990] [XMLReaderHelper / parse_number                              ] - PASSED
+[462/990] [XMLReaderHelper / find_sub_string                           ] - PASSED
+[463/990] [FileRules / config_v1                                       ] - PASSED
+[464/990] [FileRules / config_read_only                                ] - PASSED
+[465/990] [FileRules / config_insert_rule                              ] - PASSED
+[466/990] [FileRules / config_rule_customkeys                          ] - PASSED
+[467/990] [FileRules / config_rule_u8                                  ] - PASSED
+[468/990] [FileRules / rule_invalid                                    ] - PASSED
+[469/990] [FileRules / pattern_error                                   ] - PASSED
+[470/990] [FileRules / with_defaults                                   ] - PASSED
+[471/990] [FileRules / extension_error                                 ] - PASSED
+[472/990] [FileRules / multiple_rules                                  ] - PASSED
+[473/990] [FileRules / rules_filepattern                               ] - PASSED
+[474/990] [FileRules / rules_regex                                     ] - PASSED
+[475/990] [FileRules / rules_long_filepattern                          ] - PASSED
+[476/990] [FileRules / rules_test                                      ] - PASSED
+[477/990] [FileRules / rules_priority                                  ] - PASSED
+[478/990] [FileRules / config_no_default                               ] - PASSED
+[479/990] [FileRules / config_default_missmatch                        ] - PASSED
+[480/990] [FileRules / config_no_default_role                          ] - PASSED
+[481/990] [FileRules / config_default_no_colorspace                    ] - PASSED
+[482/990] [FileRules / config_no_default_rule                          ] - PASSED
+[483/990] [FileRules / config_filerule_no_colorspace                   ] - PASSED
+[484/990] [FileRules / config_v1_faulty                                ] - PASSED
+[485/990] [FileRules / config_v1_to_v2                                 ] - PASSED
+[486/990] [FileRules / config_v2_wrong_rule                            ] - PASSED
+[487/990] [FileRules / rule_move                                       ] - PASSED
+[488/990] [FileRules / clone                                           ] - PASSED
+[489/990] [FileRules / isDefault                                       ] - PASSED
+[490/990] [GpuShader / generic_shader                                  ] - PASSED
+[491/990] [GpuShader / legacy_shader                                   ] - PASSED
+[492/990] [GpuShaderUtils / float_to_string                            ] - PASSED
+[493/990] [Logging / message_function                                  ] - PASSED
+[494/990] [LookParse / parse                                           ] - PASSED
+[495/990] [LookParse / reverse                                         ] - PASSED
+[496/990] [MathUtils / is_scalar_equal_to_zero                         ] - PASSED
+[497/990] [MathUtils / get_m44_inverse                                 ] - PASSED
+[498/990] [MathUtils / m44_m44_product                                 ] - PASSED
+[499/990] [MathUtils / m44_v4_product                                  ] - PASSED
+[500/990] [MathUtils / v4_add                                          ] - PASSED
+[501/990] [MathUtils / mxb_eval                                        ] - PASSED
+[502/990] [MathUtils / combine_two_mxb                                 ] - PASSED
+[503/990] [MathUtils / mxb_invert                                      ] - PASSED
+[504/990] [MathUtils / float_diff_keep_denorms_test                    ] - PASSED
+[505/990] [MathUtils / float_diff_compress_denorms_test                ] - PASSED
+[506/990] [MathUtils / half_bits_test                                  ] - PASSED
+[507/990] [MathUtils / halfs_differ_test                               ] - PASSED
+[508/990] [MathUtils / clamp                                           ] - PASSED
+[509/990] [NamedTransform / basic                                      ] - PASSED
+[510/990] [NamedTransform / alias                                      ] - PASSED
+[511/990] [Config / named_transform_processor                          ] - PASSED
+[512/990] [Config / named_transform_validation                         ] - PASSED
+[513/990] [Config / named_transform_io                                 ] - PASSED
+[514/990] [Config / inactive_named_transforms                          ] - PASSED
+[515/990] [Config / inactive_named_transform_precedence                ] - PASSED
+[516/990] [FinalizeOpVec / optimize_combine                            ] - PASSED
+[517/990] [Op / non_dynamic_ops                                        ] - PASSED
+[518/990] [OpData / equality                                           ] - PASSED
+[519/990] [OpRcPtrVec / erase_insert                                   ] - PASSED
+[520/990] [OpRcPtrVec / is_noop                                        ] - PASSED
+[521/990] [OpRcPtrVec / channel_crosstalk                              ] - PASSED
+[522/990] [OpRcPtrVec / dynamic_property                               ] - PASSED
+[523/990] [OpRcPtrVec / clone_invert                                   ] - PASSED
+[524/990] [OpRcPtrVec / serialize                                      ] - PASSED
+[525/990] [OpOptimizers / remove_leading_clamp_identity                ] - PASSED
+[526/990] [OpOptimizers / remove_trailing_clamp_identity               ] - PASSED
+[527/990] [OpOptimizers / remove_inverse_ops                           ] - PASSED
+[528/990] [OpOptimizers / combine_ops                                  ] - PASSED
+[529/990] [OpOptimizers / non_optimizable                              ] - PASSED
+[530/990] [OpOptimizers / optimizable                                  ] - PASSED
+[531/990] [OpOptimizers / optimization                                 ] - PASSED
+[532/990] [OpOptimizers / optimization2                                ] - PASSED
+[533/990] [OpOptimizers / lut1d_identities                             ] - PASSED
+[534/990] [OpOptimizers / lut1d_identity_replacement                   ] - PASSED
+[535/990] [OpOptimizers / lut1d_half_domain_keep_prior_range           ] - PASSED
+[536/990] [OpOptimizers / range_composition                            ] - PASSED
+[537/990] [OpOptimizers / invlut_pair_identities                       ] - PASSED
+[538/990] [OpOptimizers / mntr_identities                              ] - PASSED
+[539/990] [OpOptimizers / gamma_comp                                   ] - PASSED
+[540/990] [OpOptimizers / gamma_comp_identity                          ] - PASSED
+[541/990] [OpOptimizers / log_identities                               ] - PASSED
+[542/990] [OpOptimizers / range_lut                                    ] - PASSED
+[543/990] [OpOptimizers / dynamic_ops                                  ] - PASSED
+[544/990] [OpOptimizers / gamma_prefix                                 ] - PASSED
+[545/990] [OpOptimizers / multi_op_prefix                              ] - PASSED
+[546/990] [OpOptimizers / dyn_properties_prefix                        ] - PASSED
+[547/990] [OpOptimizers / opt_prefix_test1                             ] - PASSED
+[548/990] [OpOptimizers / replace_ops                                  ] - PASSED
+[549/990] [AllocationOps / create                                      ] - PASSED
+[550/990] [CDLOpData / accessors                                       ] - PASSED
+[551/990] [CDLOpData / constructors                                    ] - PASSED
+[552/990] [CDLOpData / inverse                                         ] - PASSED
+[553/990] [CDLOpData / style                                           ] - PASSED
+[554/990] [CDLOpData / validation_success                              ] - PASSED
+[555/990] [CDLOpData / validation_failure                              ] - PASSED
+[556/990] [CDLOpData / channel                                         ] - PASSED
+[557/990] [CDLOp / computed_identifier                                 ] - PASSED
+[558/990] [CDLOp / is_inverse                                          ] - PASSED
+[559/990] [CDLOp / apply_clamp_fwd                                     ] - PASSED
+[560/990] [CDLOp / apply_clamp_rev                                     ] - PASSED
+[561/990] [CDLOp / apply_noclamp_fwd                                   ] - PASSED
+[562/990] [CDLOp / apply_noclamp_rev                                   ] - PASSED
+[563/990] [CDLOp / apply_clamp_fwd_2                                   ] - PASSED
+[564/990] [CDLOp / apply_clamp_fwd_3                                   ] - PASSED
+[565/990] [CDLOp / apply_noclamp_fwd_3                                 ] - PASSED
+[566/990] [CDLOp / create_transform                                    ] - PASSED
+[567/990] [ExponentOp / value                                          ] - PASSED
+[568/990] [ExponentOp / value_limits                                   ] - PASSED
+[569/990] [ExponentOp / combining                                      ] - PASSED
+[570/990] [ExponentOp / throw_create                                   ] - PASSED
+[571/990] [ExponentOp / can_combine_with                               ] - PASSED
+[572/990] [ExponentOp / noop                                           ] - PASSED
+[573/990] [ExponentOp / cache_id                                       ] - PASSED
+[574/990] [ExponentOp / create_transform                               ] - PASSED
+[575/990] [ExposureContrastRenderer / video                            ] - PASSED
+[576/990] [ExposureContrastRenderer / log                              ] - PASSED
+[577/990] [ExposureContrastRenderer / linear                           ] - PASSED
+[578/990] [ExposureContrastRenderer / inverse                          ] - PASSED
+[579/990] [ExposureContrastRenderer / log_params                       ] - PASSED
+[580/990] [ExposureContrastOpData / style                              ] - PASSED
+[581/990] [ExposureContrastOpData / accessors                          ] - PASSED
+[582/990] [ExposureContrastOpData / clone                              ] - PASSED
+[583/990] [ExposureContrastOpData / inverse                            ] - PASSED
+[584/990] [ExposureContrastOpData / equality                           ] - PASSED
+[585/990] [ExposureContrastOpData / replace_dynamic_property           ] - PASSED
+[586/990] [ExposureContrastOp / create                                 ] - PASSED
+[587/990] [ExposureContrastOp / inverse                                ] - PASSED
+[588/990] [ExposureContrastOp / create_transform                       ] - PASSED
+[589/990] [FixedFunctionOpCPU / aces_red_mod_03                        ] - PASSED
+[590/990] [FixedFunctionOpCPU / aces_red_mod_10                        ] - PASSED
+[591/990] [FixedFunctionOpCPU / aces_glow_03                           ] - PASSED
+[592/990] [FixedFunctionOpCPU / aces_glow_10                           ] - PASSED
+[593/990] [FixedFunctionOpCPU / aces_dark_to_dim_10                    ] - PASSED
+[594/990] [FixedFunctionOpCPU / rec2100_surround                       ] - PASSED
+[595/990] [FixedFunctionOpCPU / RGB_TO_HSV                             ] - PASSED
+[596/990] [FixedFunctionOpCPU / XYZ_TO_xyY                             ] - PASSED
+[597/990] [FixedFunctionOpCPU / XYZ_TO_uvY                             ] - PASSED
+[598/990] [FixedFunctionOpCPU / XYZ_TO_LUV                             ] - PASSED
+[599/990] [FixedFunctionOpData / aces_red_mod_style                    ] - PASSED
+[600/990] [FixedFunctionOpData / aces_dark_to_dim10_style              ] - PASSED
+[601/990] [FixedFunctionOpData / rec2100_surround_style                ] - PASSED
+[602/990] [FixedFunctionOpData / is_inverse                            ] - PASSED
+[603/990] [FixedFunctionOp / basic                                     ] - PASSED
+[604/990] [FixedFunctionOp / glow03_cpu_engine                         ] - PASSED
+[605/990] [FixedFunctionOp / darktodim10_cpu_engine                    ] - PASSED
+[606/990] [FixedFunctionOp / aces_red_mod_inv                          ] - PASSED
+[607/990] [FixedFunctionOp / aces_glow_inv                             ] - PASSED
+[608/990] [FixedFunctionOp / aces_darktodim10_inv                      ] - PASSED
+[609/990] [FixedFunctionOp / rec2100_surround_inv                      ] - PASSED
+[610/990] [FixedFunctionOp / create_transform                          ] - PASSED
+[611/990] [FixedFunctionOps / RGB_TO_HSV                               ] - PASSED
+[612/990] [FixedFunctionOps / XYZ_TO_xyY                               ] - PASSED
+[613/990] [FixedFunctionOps / XYZ_TO_uvY                               ] - PASSED
+[614/990] [FixedFunctionOps / XYZ_TO_LUV                               ] - PASSED
+[615/990] [GammaOp / combining                                         ] - PASSED
+[616/990] [GammaOp / basic                                             ] - PASSED
+[617/990] [GammaOp / computed_identifier                               ] - PASSED
+[618/990] [GammaOp / create_transform                                  ] - PASSED
+[619/990] [GammaOpCPU / apply_basic_style_fwd                          ] - PASSED
+[620/990] [GammaOpCPU / apply_basic_style_rev                          ] - PASSED
+[621/990] [GammaOpCPU / apply_basic_mirror_style_fwd                   ] - PASSED
+[622/990] [GammaOpCPU / apply_basic_mirror_style_rev                   ] - PASSED
+[623/990] [GammaOpCPU / apply_basic_pass_thru_style_fwd                ] - PASSED
+[624/990] [GammaOpCPU / apply_basic_pass_thru_style_rev                ] - PASSED
+[625/990] [GammaOpCPU / apply_moncurve_style_fwd                       ] - PASSED
+[626/990] [GammaOpCPU / apply_moncurve_style_rev                       ] - PASSED
+[627/990] [GammaOpCPU / apply_moncurve_mirror_style_fwd                ] - PASSED
+[628/990] [GammaOpCPU / apply_moncurve_mirror_style_rev                ] - PASSED
+[629/990] [GammaOpData / accessors                                     ] - PASSED
+[630/990] [GammaOpData / identity_style_basic                          ] - PASSED
+[631/990] [GammaOpData / identity_style_moncurve                       ] - PASSED
+[632/990] [GammaOpData / noop_style_basic                              ] - PASSED
+[633/990] [GammaOpData / noop_style_moncurve                           ] - PASSED
+[634/990] [GammaOpData / validate                                      ] - PASSED
+[635/990] [GammaOpData / equality                                      ] - PASSED
+[636/990] [GammaOpData / basic_inverse                                 ] - PASSED
+[637/990] [GammaOpData / moncurve_inverse                              ] - PASSED
+[638/990] [GammaOpData / is_inverse                                    ] - PASSED
+[639/990] [GammaOpData / mayCompose                                    ] - PASSED
+[640/990] [GammaOpData / compose                                       ] - PASSED
+[641/990] [GammaOpUtils / compute_params_forward                       ] - PASSED
+[642/990] [GammaOpUtils / compute_params_reverse                       ] - PASSED
+[643/990] [GradingPrimary / basic                                      ] - PASSED
+[644/990] [GradingPrimary / validate                                   ] - PASSED
+[645/990] [GradingPrimary / precompute                                 ] - PASSED
+[646/990] [GradingPrimaryOpCPU / identity                              ] - PASSED
+[647/990] [GradingPrimaryOpCPU / log                                   ] - PASSED
+[648/990] [GradingPrimaryOpCPU / lin                                   ] - PASSED
+[649/990] [GradingPrimaryOpCPU / video                                 ] - PASSED
+[650/990] [GradingPrimaryOpData / accessors                            ] - PASSED
+[651/990] [GradingPrimaryOpData / validate                             ] - PASSED
+[652/990] [GradingPrimaryOpData / dynamic                              ] - PASSED
+[653/990] [GradingPrimaryOp / create                                   ] - PASSED
+[654/990] [GradingPrimaryOp / create_transform                         ] - PASSED
+[655/990] [GradingPrimaryOp / build_ops                                ] - PASSED
+[656/990] [GradingBSplineCurve / basic                                 ] - PASSED
+[657/990] [GradingBSplineCurve / validate                              ] - PASSED
+[658/990] [GradingRGBCurve / basic                                     ] - PASSED
+[659/990] [GradingRGBCurve / curves                                    ] - PASSED
+[660/990] [GradingRGBCurve / max_ctrl_pnts                             ] - PASSED
+[661/990] [GradingRGBCurveOpCPU / identity                             ] - PASSED
+[662/990] [GradingRGBCurveOpCPU / log                                  ] - PASSED
+[663/990] [GradingRGBCurveOpCPU / log_partial_identity                 ] - PASSED
+[664/990] [GradingRGBCurveOpCPU / monotonic                            ] - PASSED
+[665/990] [GradingRGBCurveOpCPU / lin_bypass                           ] - PASSED
+[666/990] [GradingRGBCurveOpCPU / lin                                  ] - PASSED
+[667/990] [GradingRGBCurveOpCPU / slopes                               ] - PASSED
+[668/990] [GradingRGBCurveOpData / accessors                           ] - PASSED
+[669/990] [GradingRGBCurveOpData / validate                            ] - PASSED
+[670/990] [GradingRGBCurveOp / create                                  ] - PASSED
+[671/990] [GradingRGBCurveOp / create_transform                        ] - PASSED
+[672/990] [GradingRGBCurveOp / build_ops                               ] - PASSED
+[673/990] [GradingTone / basic                                         ] - PASSED
+[674/990] [GradingTone / rgbmsw_channel                                ] - PASSED
+[675/990] [GradingTone / validate                                      ] - PASSED
+[676/990] [GradingToneOpCPU / identity                                 ] - PASSED
+[677/990] [GradingToneOpCPU / log_midtones                             ] - PASSED
+[678/990] [GradingToneOpCPU / log_highlights                           ] - PASSED
+[679/990] [GradingToneOpCPU / video_shadows                            ] - PASSED
+[680/990] [GradingToneOpCPU / video_white_details                      ] - PASSED
+[681/990] [GradingToneOpCPU / log_black_details                        ] - PASSED
+[682/990] [GradingToneOpCPU / log_scontrast                            ] - PASSED
+[683/990] [GradingToneOpCPU / lin_midtones                             ] - PASSED
+[684/990] [GradingToneOpData / accessors                               ] - PASSED
+[685/990] [GradingToneOpData / validate                                ] - PASSED
+[686/990] [GradingToneOpData / dynamic                                 ] - PASSED
+[687/990] [GradingToneOp / create                                      ] - PASSED
+[688/990] [GradingToneOp / create_transform                            ] - PASSED
+[689/990] [GradingToneOp / build_ops                                   ] - PASSED
+[690/990] [LogOpCPU / log_test                                         ] - PASSED
+[691/990] [LogOpCPU / anti_log_test                                    ] - PASSED
+[692/990] [LogOpCPU / log2lin_test                                     ] - PASSED
+[693/990] [LogOpCPU / lin2log_test                                     ] - PASSED
+[694/990] [LogOpCPU / cameralog2lin_test                               ] - PASSED
+[695/990] [LogOpCPU / cameralin2log_test                               ] - PASSED
+[696/990] [LogOpData / accessor_test                                   ] - PASSED
+[697/990] [LogOpData / validation_fails_test                           ] - PASSED
+[698/990] [LogOpData / log_inverse                                     ] - PASSED
+[699/990] [LogOpData / identity_replacement                            ] - PASSED
+[700/990] [LogOp / lin_to_log                                          ] - PASSED
+[701/990] [LogOp / log_to_lin                                          ] - PASSED
+[702/990] [LogOp / inverse                                             ] - PASSED
+[703/990] [LogOp / cache_id                                            ] - PASSED
+[704/990] [LogOp / create_transform                                    ] - PASSED
+[705/990] [LogUtil / ctf_to_ocio_fail                                  ] - PASSED
+[706/990] [LogUtil / ctf_to_ocio_ok                                    ] - PASSED
+[707/990] [Lut1DOp / extrapolation_errors                              ] - PASSED
+[708/990] [Lut1DOp / inverse                                           ] - PASSED
+[709/990] [Lut1DOp / finite_value                                      ] - PASSED
+[710/990] [Lut1DOp / gpu                                               ] - PASSED
+[711/990] [Lut1DOp / identity_lut_1d                                   ] - PASSED
+[712/990] [Lut1DRenderer / finite_value_hue_adjust                     ] - PASSED
+[713/990] [Lut1D / lut_1d_compose_with_bit_depth                       ] - PASSED
+[714/990] [Lut1DOpData / compose_only_forward                          ] - PASSED
+[715/990] [Lut1D / compose_big_domain                                  ] - PASSED
+[716/990] [Lut1D / inverse_twice                                       ] - PASSED
+[717/990] [Lut1D / create_transform                                    ] - PASSED
+[718/990] [Lut1DTransform / build_op                                   ] - PASSED
+[719/990] [GamutMapUtil / order3_test                                  ] - PASSED
+[720/990] [Lut1DRenderer / nan_test                                    ] - PASSED
+[721/990] [Lut1DRenderer / nan_half_test                               ] - PASSED
+[722/990] [Lut1DRenderer / bit_depth_support                           ] - PASSED
+[723/990] [Lut1DRenderer / basic                                       ] - PASSED
+[724/990] [Lut1DRenderer / half                                        ] - PASSED
+[725/990] [Lut1DRenderer / nan                                         ] - PASSED
+[726/990] [Lut1DRenderer / lut_1d_red                                  ] - PASSED
+[727/990] [Lut1DRenderer / lut_1d_green                                ] - PASSED
+[728/990] [Lut1DRenderer / lut_1d_blue                                 ] - PASSED
+[729/990] [Lut1DRenderer / lut_1d_special_values                       ] - PASSED
+[730/990] [Lut1DRenderer / lut_1d_hue_adjust                           ] - PASSED
+[731/990] [Lut1DRenderer / lut_1d_half_domain_hue_adjust               ] - PASSED
+[732/990] [Lut1DRenderer / lut_1d_inv_hue_adjust                       ] - PASSED
+[733/990] [Lut1DRenderer / lut_1d_identity_half                        ] - PASSED
+[734/990] [Lut1DRenderer / lut_1d_identity_half_to_int                 ] - PASSED
+[735/990] [Lut1DRenderer / lut_1d_identity_int_to_half                 ] - PASSED
+[736/990] [Lut1DRenderer / lut_1d_identity_half_code                   ] - PASSED
+[737/990] [Lut1DRenderer / lut_1d_inv_identity                         ] - PASSED
+[738/990] [Lut1DRenderer / lut_1d_inv_increasing                       ] - PASSED
+[739/990] [Lut1DRenderer / lut_1d_inv_decreasing_reversals             ] - PASSED
+[740/990] [Lut1DRenderer / lut_1d_inv_clamp_to_range                   ] - PASSED
+[741/990] [Lut1DRenderer / lut_1d_inv_flat_start_or_end                ] - PASSED
+[742/990] [Lut1DRenderer / lut_1d_inv_half_input                       ] - PASSED
+[743/990] [Lut1DRenderer / lut_1d_inv_half_identity                    ] - PASSED
+[744/990] [Lut1DRenderer / lut_1d_inv_half_ctf                         ] - PASSED
+[745/990] [Lut1DRenderer / lut_1d_inv_half_fclut                       ] - PASSED
+[746/990] [Lut1DRenderer / lut_1d_inv_half_domain_hue_adjust           ] - PASSED
+[747/990] [Lut1DOpData / get_lut_ideal_size                            ] - PASSED
+[748/990] [Lut1DOpData / constructor                                   ] - PASSED
+[749/990] [Lut1DOpData / accessors                                     ] - PASSED
+[750/990] [Lut1DOpData / is_identity                                   ] - PASSED
+[751/990] [Lut1DOpData / clone                                         ] - PASSED
+[752/990] [Lut1DOpData / equality_test                                 ] - PASSED
+[753/990] [Lut1DOpData / channel                                       ] - PASSED
+[754/990] [Lut1DOpData / interpolation                                 ] - PASSED
+[755/990] [Lut1DOpData / lut_1d_compose                                ] - PASSED
+[756/990] [Lut1DOpData / lut_1d_compose_sc                             ] - PASSED
+[757/990] [Lut1DOpData / inverse_hueadjust                             ] - PASSED
+[758/990] [Lut1DOpData / is_inverse                                    ] - PASSED
+[759/990] [Lut1DOpData / inverse_increasing_effective_domain           ] - PASSED
+[760/990] [Lut1DOpData / inverse_flatten_test                          ] - PASSED
+[761/990] [Lut1DOpData / inverse_half_domain                           ] - PASSED
+[762/990] [Lut1DOpData / make_fast_from_inverse_gpu_extented_domain    ] - PASSED
+[763/990] [Lut1DOpData / make_fast_from_inverse_f32_opt                ] - PASSED
+[764/990] [Lut1DOpData / make_fast_from_inverse_half_domain            ] - PASSED
+[765/990] [Lut1DOpData / compose_inverse_luts                          ] - PASSED
+[766/990] [Lut1DOp / pad_lut_one_dimension                             ] - PASSED
+[767/990] [Lut1DOp / pad_lut_two_dimension_1                           ] - PASSED
+[768/990] [Lut1DOp / pad_lut_two_dimension_2                           ] - PASSED
+[769/990] [Lut3DOp / inverse_comparison_check                          ] - PASSED
+[770/990] [GenerateIdentityLut3D / throw_lut                           ] - PASSED
+[771/990] [Lut3DOpData / create_op                                     ] - PASSED
+[772/990] [Lut3DOp / cache_id                                          ] - PASSED
+[773/990] [Lut3DOp / edge_len_from_num_pixels                          ] - PASSED
+[774/990] [Lut3DOpStruct / lut3d_order                                 ] - PASSED
+[775/990] [Lut3DOpData / lut_order                                     ] - PASSED
+[776/990] [Lut3DOpData / lut_combine                                   ] - PASSED
+[777/990] [Lut3DOp / cpu_renderer_lut3d                                ] - PASSED
+[778/990] [Lut3DOp / cpu_renderer_cloned                               ] - PASSED
+[779/990] [Lut3DOp / cpu_renderer_inverse                              ] - PASSED
+[780/990] [Lut3DOp / cpu_renderer_lut3d_with_nan                       ] - PASSED
+[781/990] [Lut3D / create_transform                                    ] - PASSED
+[782/990] [Lut3DTransform / build_op                                   ] - PASSED
+[783/990] [Lut3DRenderer / nan_linear_test                             ] - PASSED
+[784/990] [Lut3DRenderer / nan_tetra_test                              ] - PASSED
+[785/990] [Lut3DOpData / empty                                         ] - PASSED
+[786/990] [Lut3DOpData / accessors                                     ] - PASSED
+[787/990] [Lut3DOpData / clone                                         ] - PASSED
+[788/990] [Lut3DOpData / not_supported_length                          ] - PASSED
+[789/990] [Lut3DOpData / equality                                      ] - PASSED
+[790/990] [Lut3DOpData / interpolation                                 ] - PASSED
+[791/990] [Lut3DOpData / is_inverse                                    ] - PASSED
+[792/990] [Lut3DOpData / compose                                       ] - PASSED
+[793/990] [Lut3DOpData / compose_2                                     ] - PASSED
+[794/990] [Lut3DOpData / inv_lut3d_lut_size                            ] - PASSED
+[795/990] [Lut3DOpData / compose_inverse_luts                          ] - PASSED
+[796/990] [MatrixOpCPU / scale_renderer                                ] - PASSED
+[797/990] [MatrixOpCPU / scale_with_offset_renderer                    ] - PASSED
+[798/990] [MatrixOpCPU / matrix_with_offset_renderer                   ] - PASSED
+[799/990] [MatrixOpCPU / matrix_renderer                               ] - PASSED
+[800/990] [MatrixOpData / empty                                        ] - PASSED
+[801/990] [MatrixOpData / accessors                                    ] - PASSED
+[802/990] [MatrixOpData / offsets                                      ] - PASSED
+[803/990] [MatrixOpData / offsets4                                     ] - PASSED
+[804/990] [MatrixOpData / diagonal                                     ] - PASSED
+[805/990] [MatrixOpData / has_alpha                                    ] - PASSED
+[806/990] [MatrixOpData / clone                                        ] - PASSED
+[807/990] [MatrixOpData / clone_offsets4                               ] - PASSED
+[808/990] [MatrixOpData / test_construct                               ] - PASSED
+[809/990] [MatrixOpData / composition                                  ] - PASSED
+[810/990] [MatrixOpData / equality                                     ] - PASSED
+[811/990] [MatrixOpData / rgb                                          ] - PASSED
+[812/990] [MatrixOpData / rgba                                         ] - PASSED
+[813/990] [MatrixOpData / matrixInverse_identity                       ] - PASSED
+[814/990] [MatrixOpData / matrixInverse_singular                       ] - PASSED
+[815/990] [MatrixOpData / inverse                                      ] - PASSED
+[816/990] [MatrixOpData / channel_crosstalk                            ] - PASSED
+[817/990] [MatrixOffsetOp / scale                                      ] - PASSED
+[818/990] [MatrixOffsetOp / offset                                     ] - PASSED
+[819/990] [MatrixOffsetOp / matrix                                     ] - PASSED
+[820/990] [MatrixOffsetOp / arbitrary                                  ] - PASSED
+[821/990] [MatrixOffsetOp / create_fit_op                              ] - PASSED
+[822/990] [MatrixOffsetOp / create_saturation_op                       ] - PASSED
+[823/990] [MatrixOffsetOp / create_min_max_op                          ] - PASSED
+[824/990] [MatrixOffsetOp / combining                                  ] - PASSED
+[825/990] [MatrixOffsetOp / throw_create                               ] - PASSED
+[826/990] [MatrixOffsetOp / throw_validate                             ] - PASSED
+[827/990] [MatrixOffsetOp / throw_combine                              ] - PASSED
+[828/990] [MatrixOffsetOp / no_op                                      ] - PASSED
+[829/990] [MatrixOffsetOp / is_same_type                               ] - PASSED
+[830/990] [MatrixOffsetOp / has_channel_crosstalk                      ] - PASSED
+[831/990] [MatrixOffsetOp / removing_red_green                         ] - PASSED
+[832/990] [MatrixOffsetOp / create_transform                           ] - PASSED
+[833/990] [NoOps / partition_gpu_ops                                   ] - PASSED
+[834/990] [NoOps / throw                                               ] - PASSED
+[835/990] [NoOps / allocation_op                                       ] - PASSED
+[836/990] [NoOps / file_op                                             ] - PASSED
+[837/990] [NoOps / look_op                                             ] - PASSED
+[838/990] [RangeOpCPU / identity                                       ] - PASSED
+[839/990] [RangeOpCPU / scale_with_low_and_high_clippings              ] - PASSED
+[840/990] [RangeOpCPU / scale_with_low_and_high_clippings_2            ] - PASSED
+[841/990] [RangeOpCPU / offset_with_low_and_high_clippings             ] - PASSED
+[842/990] [RangeOpCPU / low_and_high_clippings                         ] - PASSED
+[843/990] [RangeOpCPU / low_clipping                                   ] - PASSED
+[844/990] [RangeOpCPU / high_clipping                                  ] - PASSED
+[845/990] [RangeOpCPU / inverse                                        ] - PASSED
+[846/990] [RangeOpData / accessors                                     ] - PASSED
+[847/990] [RangeOpData / range_identity                                ] - PASSED
+[848/990] [RangeOpData / identity                                      ] - PASSED
+[849/990] [RangeOpData / equality                                      ] - PASSED
+[850/990] [RangeOpData / validation                                    ] - PASSED
+[851/990] [RangeOpData / inverse                                       ] - PASSED
+[852/990] [RangeOpData / compose                                       ] - PASSED
+[853/990] [RangeOpData / computed_identifier                           ] - PASSED
+[854/990] [RangeOp / apply_arbitrary                                   ] - PASSED
+[855/990] [RangeOp / combining                                         ] - PASSED
+[856/990] [RangeOp / combining_with_inverse                            ] - PASSED
+[857/990] [RangeOp / computed_identifier                               ] - PASSED
+[858/990] [RangeOp / create_transform                                  ] - PASSED
+[859/990] [RangeTransform / no_clamp_converts_to_matrix                ] - PASSED
+[860/990] [Reference / accessors                                       ] - PASSED
+[861/990] [Reference / load_path_resolve_failing                       ] - PASSED
+[862/990] [Reference / load_multiple_resolve                           ] - PASSED
+[863/990] [Reference / load_same_twice_resolve                         ] - PASSED
+[864/990] [Reference / load_nested_resolve                             ] - PASSED
+[865/990] [Reference / load_cycle_itself_resolve_failing               ] - PASSED
+[866/990] [Reference / load_cycle_2_resolve_failing                    ] - PASSED
+[867/990] [Reference / load_cycle_3_resolve_failing                    ] - PASSED
+[868/990] [Reference / load_cycle_rel_resolve_failing                  ] - PASSED
+[869/990] [Reference / load_one_reference                              ] - PASSED
+[870/990] [Reference / load_multiple_resolve_internal                  ] - PASSED
+[871/990] [Reference / load_nested_resolve_internal                    ] - PASSED
+[872/990] [ParseUtils / xml_text                                       ] - PASSED
+[873/990] [ParseUtils / bool_string                                    ] - PASSED
+[874/990] [ParseUtils / transform_direction                            ] - PASSED
+[875/990] [ParseUtils / bitdepth                                       ] - PASSED
+[876/990] [ParseUtils / string_to_int                                  ] - PASSED
+[877/990] [ParseUtils / string_to_float                                ] - PASSED
+[878/990] [ParseUtils / float_double                                   ] - PASSED
+[879/990] [ParseUtils / string_vec_to_int_vec                          ] - PASSED
+[880/990] [ParseUtils / split_string_env_style                         ] - PASSED
+[881/990] [ParseUtils / intersect_string_vecs_case_ignore              ] - PASSED
+[882/990] [PathUtils / compute_hash                                    ] - PASSED
+[883/990] [Platform / envVariable                                      ] - PASSED
+[884/990] [Platform / getenv                                           ] - PASSED
+[885/990] [Platform / setenv                                           ] - PASSED
+[886/990] [Platform / string_compare                                   ] - PASSED
+[887/990] [Platform / aligned_memory_test                              ] - PASSED
+[888/990] [Platform / create_temp_filename                             ] - PASSED
+[889/990] [Processor / basic                                           ] - PASSED
+[890/990] [Processor / unique_dynamic_properties                       ] - PASSED
+[891/990] [Processor / dynamic_properties                              ] - PASSED
+[892/990] [Processor / optimized_processor                             ] - PASSED
+[893/990] [Processor / is_noop                                         ] - PASSED
+[894/990] [Processor / channel_crosstalk                               ] - PASSED
+[895/990] [Processor / optimization_env_override_basic                 ] - PASSED
+[896/990] [Processor / cache_optimized_processors                      ] - PASSED
+[897/990] [Processor / cache_cpu_processors                            ] - PASSED
+[898/990] [Processor / cache_gpu_processors                            ] - PASSED
+[899/990] [SSE / sse2_log2_test                                        ] - PASSED
+[900/990] [SSE / sse2_power_test                                       ] - PASSED
+[901/990] [SSE / sse2_exp2_test                                        ] - PASSED
+[902/990] [SSE / sse2_atan_test                                        ] - PASSED
+[903/990] [SSE / scalar_atan_test                                      ] - PASSED
+[904/990] [SSE / sse2_atan2_test                                       ] - PASSED
+[905/990] [SSE / scalar_atan2_test                                     ] - PASSED
+[906/990] [SSE / sse2_cos_test                                         ] - PASSED
+[907/990] [SSE / sse2_sin_test                                         ] - PASSED
+[908/990] [SSE / sse2_sin_cos_test                                     ] - PASSED
+[909/990] [SSE / scalar_sin_cos_test                                   ] - PASSED
+[910/990] [AllocationTransform / allocation                            ] - PASSED
+[911/990] [Builtins / basic                                            ] - PASSED
+[912/990] [Builtins / aces                                             ] - PASSED
+[913/990] [Builtins / read_write                                       ] - PASSED
+[914/990] [BuiltinTransform / creation                                 ] - PASSED
+[915/990] [BuiltinTransform / access                                   ] - PASSED
+[916/990] [BuiltinTransform / forward_inverse                          ] - PASSED
+[917/990] [Builtins / color_matrix_helpers                             ] - PASSED
+[918/990] [Builtins / interpolate                                      ] - PASSED
+[919/990] [Builtins / validate                                         ] - PASSED
+[920/990] [CDLTransform / equality                                     ] - PASSED
+[921/990] [CDLTransform / create_from_cc_file                          ] - PASSED
+[922/990] [CDLTransform / create_from_ccc_file                         ] - PASSED
+[923/990] [CDLTransform / create_from_cdl_file                         ] - PASSED
+[924/990] [CDLTransform / escape_xml                                   ] - PASSED
+[925/990] [CDLTransform / clear_caches                                 ] - PASSED
+[926/990] [CDLTransform / faulty_file_content                          ] - PASSED
+[927/990] [CDLTransform / buildops                                     ] - PASSED
+[928/990] [CDLTransform / description                                  ] - PASSED
+[929/990] [CDLTransform / style                                        ] - PASSED
+[930/990] [CDLTransform / apply_optimize_simplify                      ] - PASSED
+[931/990] [ColorSpaceTransform / basic                                 ] - PASSED
+[932/990] [ColorSpaceTransform / build_colorspace_ops                  ] - PASSED
+[933/990] [ColorSpaceTransform / build_reference_conversion_ops        ] - PASSED
+[934/990] [ColorSpaceTransform / build_colorspace_ops_with_reference_c ] - PASSED
+[935/990] [ColorSpaceTransform / context_variables                     ] - PASSED
+[936/990] [DisplayViewTransform / basic                                ] - PASSED
+[937/990] [DisplayViewTransform / build_ops                            ] - PASSED
+[938/990] [DisplayViewTransform / build_ops_with_looks                 ] - PASSED
+[939/990] [DisplayViewTransform / config_load                          ] - PASSED
+[940/990] [DisplayViewTransform / apply_fwd_inv                        ] - PASSED
+[941/990] [DisplayViewTransform / context_variables                    ] - PASSED
+[942/990] [ExponentTransform / basic                                   ] - PASSED
+[943/990] [ExponentTransform / double                                  ] - PASSED
+[944/990] [ExponentTransform / build_ops                               ] - PASSED
+[945/990] [ExponentWithLinearTransform / basic                         ] - PASSED
+[946/990] [ExposureContrastTransform / basic                           ] - PASSED
+[947/990] [ExposureContrastTransform / processor                       ] - PASSED
+[948/990] [ExposureContrastTransform / processor_several_ec            ] - PASSED
+[949/990] [FileTransform / basic                                       ] - PASSED
+[950/990] [FileTransform / load_file_ok                                ] - PASSED
+[951/990] [FileTransform / load_file_fail                              ] - PASSED
+[952/990] [FileTransform / all_formats                                 ] - PASSED
+[953/990] [FileTransform / format_by_index                             ] - PASSED
+[954/990] [FileTransform / validate                                    ] - PASSED
+[955/990] [FileTransform / interpolation_validity                      ] - PASSED
+[956/990] [FileTransform / context_variables                           ] - PASSED
+[957/990] [FixedFunctionTransform / basic                              ] - PASSED
+[958/990] [GradingPrimaryTransform / basic                             ] - PASSED
+[959/990] [GradingPrimaryTransform / dynamic                           ] - PASSED
+[960/990] [GradingPrimaryTransform / processor_several_transforms      ] - PASSED
+[961/990] [GradingPrimaryTransform / several_transforms_switch         ] - PASSED
+[962/990] [GradingPrimaryTransform / serialization                     ] - PASSED
+[963/990] [GradingPrimaryTransform / log_contrast_inverse_apply        ] - PASSED
+[964/990] [GradingRGBCurveTransform / basic                            ] - PASSED
+[965/990] [GradingRGBCurveTransform / processor_several_transforms     ] - PASSED
+[966/990] [GradingRGBCurveTransform / serialization                    ] - PASSED
+[967/990] [GradingToneTransform / basic                                ] - PASSED
+[968/990] [GradingToneTransform / serialization                        ] - PASSED
+[969/990] [GroupTransform / basic                                      ] - PASSED
+[970/990] [GroupTransform / write_formats                              ] - PASSED
+[971/990] [LogAffineTransform / basic                                  ] - PASSED
+[972/990] [LogCameraTransform / camera                                 ] - PASSED
+[973/990] [LogTransform / basic                                        ] - PASSED
+[974/990] [LookTransform / basic                                       ] - PASSED
+[975/990] [LookTransform / build_look_ops                              ] - PASSED
+[976/990] [LookTransform / build_look_options_ops                      ] - PASSED
+[977/990] [LookTransform / context_variables                           ] - PASSED
+[978/990] [LookTransform / inverse_look_transform                      ] - PASSED
+[979/990] [Lut1DTransform / basic                                      ] - PASSED
+[980/990] [Lut1DTransform / create_with_parameters                     ] - PASSED
+[981/990] [Lut1DTransform / non_monotonic                              ] - PASSED
+[982/990] [Lut3DTransform / basic                                      ] - PASSED
+[983/990] [Lut3DTransform / create_with_parameters                     ] - PASSED
+[984/990] [MatrixTransform / basic                                     ] - PASSED
+[985/990] [MatrixTransform / equals                                    ] - PASSED
+[986/990] [RangeTransform / basic                                      ] - PASSED
+[987/990] [ViewingRules / basic                                        ] - PASSED
+[988/990] [ViewingRules / config_io                                    ] - PASSED
+[989/990] [ViewingRules / filtered_views                               ] - PASSED
+[990/990] [ViewTransform / basic                                       ] - PASSED
+
+
+0 tests failed with 0 errors.
+
+<end of output>
+Test time =   2.13 sec
+----------------------------------------------------------
+Test Passed.
+"test_cpu" end time: Jan 21 15:26 PST
+"test_cpu" time elapsed: 00:00:02
+----------------------------------------------------------
+
+3/4 Testing: test_gpu
+3/4 Test: test_gpu
+Command: "/Users/frankeder/Documents/ocio/build/tests/gpu/test_gpu_exec"
+Directory: /Users/frankeder/Documents/ocio/build/tests/gpu
+"test_gpu" start time: Jan 21 15:26 PST
+Output:
+----------------------------------------------------------
+
+GL Vendor:    Intel Inc.
+GL Renderer:  Intel Iris Pro OpenGL Engine
+GL Version:   2.1 INTEL-14.7.8
+GLSL Version: 1.20
+
+ OpenColorIO_Core_GPU_Unit_Tests
+
+[  1/205] [CDLOp / clamp_fwd_v1_legacy_shader                ] - PASSED - (MaxDiff: 4.76837e-07 at pix[55224][0])
+[  2/205] [CDLOp / clamp_fwd_v1                              ] - PASSED - (MaxDiff: 4.76837e-07 at pix[55224][0])
+[  3/205] [CDLOp / clamp_fwd_v2                              ] - PASSED - (MaxDiff: 9.53674e-06 at pix[45324][2])
+[  4/205] [CDLOp / clamp_fwd_no_clamp_v2                     ] - PASSED - (MaxDiff: 2.26498e-05 at pix[61405][0])
+[  5/205] [CDLOp / clamp_inv_v2                              ] - PASSED - (MaxDiff: 1.04904e-05 at pix[37886][2])
+[  6/205] [CDLOp / clamp_inv_no_clamp_v2                     ] - FAILED - 
+Maximum error: 2.74181366e-05 at pixel: 65518 on component 1
+Large number error: 2.74181366e-05 at pixel: 10 on component 2.
+src = {0, 0, -inf, 0}
+cpu = {-0.03703703731, 0.2090909034, -0.1549295783, 0}
+gpu = {-0.03703703731, 0.2090909034, -inf, 0}
+
+[  7/205] [CDLOp / clamp_fwd_v1_legacy_shader_Data_2         ] - PASSED - (MaxDiff: 9.53674e-07 at pix[61067][0])
+[  8/205] [CDLOp / clamp_fwd_v1_Data_2                       ] - PASSED - (MaxDiff: 9.53674e-07 at pix[61067][0])
+[  9/205] [CDLOp / clamp_fwd_v2_Data_2                       ] - PASSED - (MaxDiff: 1.31726e-05 at pix[42094][0])
+[ 10/205] [CDLOp / clamp_inv_v2_Data_2                       ] - PASSED - (MaxDiff: 1.09673e-05 at pix[5][1])
+[ 11/205] [CDLOp / clamp_fwd_no_clamp_v2_Data_2              ] - PASSED - (MaxDiff: 2.43187e-05 at pix[57356][0])
+[ 12/205] [CDLOp / clamp_inv_no_clamp_v2_Data_2              ] - PASSED - (MaxDiff: 2.21729e-05 at pix[65535][2])
+[ 13/205] [CDLOp / clamp_fwd_v2_Data_3                       ] - PASSED - (MaxDiff: 1.06096e-05 at pix[28596][0])
+[ 14/205] [CDLOp / clamp_fwd_no_clamp_v2_Data_3              ] - PASSED - (MaxDiff: 4.22001e-05 at pix[59867][0])
+[ 15/205] [CDLOp / clamp_inv_no_clamp_v2_Data_3              ] - PASSED - (MaxDiff: 1.18017e-05 at pix[65535][2])
+[ 16/205] [Config / several_1D_luts_legacy_shader            ] - PASSED - (MaxDiff: 0.000164688 at pix[43629][0])
+[ 17/205] [Config / several_1D_luts_generic_shader           ] - PASSED - (MaxDiff: 1.19209e-07 at pix[40756][0])
+[ 18/205] [Config / arbitrary_generic_shader                 ] - PASSED - (MaxDiff: 5.72205e-06 at pix[21868][0])
+[ 19/205] [Config / several_luts_generic_shader              ] - PASSED - (MaxDiff: 2.98023e-08 at pix[21885][1])
+[ 20/205] [Config / with_underscores                         ] - PASSED - (MaxDiff: 2.98023e-08 at pix[51918][1])
+[ 21/205] [ExposureContrast / style_linear_fwd               ] - PASSED - (MaxDiff: 9.56893e-06 at pix[57714][2])
+[ 22/205] [ExposureContrast / style_linear_rev               ] - PASSED - (MaxDiff: 1.66554e-05 at pix[54748][2])
+[ 23/205] [ExposureContrast / style_video_fwd                ] - PASSED - (MaxDiff: 9.57367e-06 at pix[43692][0])
+[ 24/205] [ExposureContrast / style_video_rev                ] - PASSED - (MaxDiff: 1.74816e-05 at pix[55074][2])
+[ 25/205] [ExposureContrast / style_log_fwd                  ] - PASSED - (MaxDiff: 1.97091e-07 at pix[52512][0])
+[ 26/205] [ExposureContrast / style_log_rev                  ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[ 27/205] [ExposureContrast / style_linear_dynamic_parameter ] - PASSED - (MaxDiff: 1.11099e-05 at pix[63081][1])
+[ 28/205] [ExposureContrast / dp_several_one_dynamic         ] - PASSED - (MaxDiff: 2.37304e-07 at pix[46549][2])
+[ 29/205] [ExposureContrast / dp_several_both_dynamic        ] - PASSED - (MaxDiff: 2.01983e-07 at pix[56704][1])
+[ 30/205] [FixedFunction / style_aces_redmod03_fwd           ] - FAILED - 
+Maximum error: 1.490116119e-06 at pixel: 0 on component 0 larger than epsilon.
+scr = {0.8999999762, 0.05000000075, 0.2199999988, 0.5}
+cpu = {0.7967003584, 0.05000000075, 0.1993400753, 0.5}
+gpu = {0.7966988683, 0.05000000075, 0.1993397623, 0.5}
+absolute tolerance=9.999999975e-07
+[ 31/205] [FixedFunction / style_aces_redmod03_inv           ] - FAILED - 
+Maximum error: 1.907348633e-06 at pixel: 0 on component 0 larger than epsilon.
+scr = {0.8999999762, 0.05000000075, 0.2199999988, 0.5}
+cpu = {1.018126011, 0.05000000075, 0.2436252087, 0.5}
+gpu = {1.018127918, 0.05000000075, 0.2436255813, 0.5}
+absolute tolerance=9.999999975e-07
+[ 32/205] [FixedFunction / style_aces_redmod10_fwd           ] - FAILED - 
+Maximum error: 1.549720764e-06 at pixel: 0 on component 0 larger than epsilon.
+scr = {0.8999999762, 0.05000000075, 0.2199999988, 0.5}
+cpu = {0.77148211, 0.05000000075, 0.2199999988, 0.5}
+gpu = {0.7714805603, 0.05000000075, 0.2199999988, 0.5}
+absolute tolerance=9.999999975e-07
+[ 33/205] [FixedFunction / style_aces_redmod10_inv           ] - FAILED - 
+Maximum error: 2.264976501e-06 at pixel: 0 on component 0 larger than epsilon.
+scr = {0.8999999762, 0.05000000075, 0.2199999988, 0.5}
+cpu = {1.052301764, 0.05000000075, 0.2199999988, 0.5}
+gpu = {1.052304029, 0.05000000075, 0.2199999988, 0.5}
+absolute tolerance=9.999999975e-07
+[ 34/205] [FixedFunction / style_aces_glow03_fwd             ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[ 35/205] [FixedFunction / style_aces_glow03_inv             ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[ 36/205] [FixedFunction / style_aces_glow10_fwd             ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[ 37/205] [FixedFunction / style_aces_glow10_inv             ] - PASSED - (MaxDiff: 1.86265e-09 at pix[0][1])
+[ 38/205] [FixedFunction / style_aces_darktodim10_fwd        ] - PASSED - (MaxDiff: 2.38419e-07 at pix[45646][0])
+[ 39/205] [FixedFunction / style_aces_darktodim10_inv        ] - PASSED - (MaxDiff: 2.38419e-07 at pix[43837][0])
+[ 40/205] [FixedFunction / style_rec2100_surround_fwd        ] - PASSED - (MaxDiff: 9.53674e-07 at pix[4][0])
+[ 41/205] [FixedFunction / style_rec2100_surround_inv        ] - PASSED - (MaxDiff: 9.53674e-07 at pix[4][0])
+[ 42/205] [FixedFunction / style_RGB_TO_HSV_fwd              ] - PASSED - (MaxDiff: 2.98023e-08 at pix[21846][1])
+[ 43/205] [FixedFunction / style_RGB_TO_HSV_fwd_custom       ] - PASSED - (MaxDiff: 1.19209e-07 at pix[1][1])
+[ 44/205] [FixedFunction / style_RGB_TO_HSV_inv              ] - PASSED - (MaxDiff: 0.00010028 at pix[59788][0])
+[ 45/205] [FixedFunction / style_RGB_TO_HSV_inv_custom       ] - PASSED - (MaxDiff: 2.38419e-07 at pix[1][0])
+[ 46/205] [FixedFunction / style_XYZ_TO_xyY_fwd              ] - PASSED - (MaxDiff: 5.96046e-08 at pix[7282][1])
+[ 47/205] [FixedFunction / style_XYZ_TO_xyY_inv              ] - PASSED - (MaxDiff: 4.76837e-07 at pix[40][2])
+[ 48/205] [FixedFunction / style_XYZ_TO_uvY_fwd              ] - PASSED - (MaxDiff: 1.19209e-07 at pix[3000][1])
+[ 49/205] [FixedFunction / style_XYZ_TO_uvY_inv              ] - PASSED - (MaxDiff: 1.90735e-06 at pix[87][2])
+[ 50/205] [FixedFunction / style_XYZ_TO_LUV_fwd              ] - PASSED - (MaxDiff: 9.59635e-06 at pix[2998][2])
+[ 51/205] [FixedFunction / style_XYZ_TO_LUV_inv              ] - PASSED - (MaxDiff: 3.69549e-06 at pix[65408][2])
+[ 52/205] [ExponentOp / legacy_shader_v1                     ] - PASSED - (MaxDiff: 9.53674e-07 at pix[59367][0])
+[ 53/205] [ExponentOp / forward_v1                           ] - PASSED - (MaxDiff: 9.53674e-07 at pix[59367][0])
+[ 54/205] [ExponentOp / forward                              ] - PASSED - (MaxDiff: 0.000126839 at pix[65525][0])
+[ 55/205] [ExponentOp / forward_mirror                       ] - PASSED - (MaxDiff: 0.000126839 at pix[65525][0])
+[ 56/205] [ExponentOp / forward_pass_thru                    ] - PASSED - (MaxDiff: 0.000126839 at pix[65525][0])
+[ 57/205] [ExponentOp / inverse_legacy_shader_v1             ] - PASSED - (MaxDiff: 2.38419e-07 at pix[46636][0])
+[ 58/205] [ExponentOp / inverse_v1                           ] - PASSED - (MaxDiff: 2.38419e-07 at pix[46636][0])
+[ 59/205] [ExponentOp / inverse                              ] - PASSED - (MaxDiff: 2.31266e-05 at pix[65533][1])
+[ 60/205] [ExponentOp / inverse_mirror                       ] - PASSED - (MaxDiff: 2.31266e-05 at pix[65533][1])
+[ 61/205] [ExponentOp / inverse_pass_thru                    ] - PASSED - (MaxDiff: 2.31266e-05 at pix[65533][1])
+[ 62/205] [ExponentWithLinearOp / forward                    ] - PASSED - (MaxDiff: 9.48906e-05 at pix[64520][2])
+[ 63/205] [ExponentWithLinearOp / mirror_forward             ] - PASSED - (MaxDiff: 9.48906e-05 at pix[64520][2])
+[ 64/205] [ExponentWithLinearOp / inverse                    ] - PASSED - (MaxDiff: 2.28882e-05 at pix[65532][1])
+[ 65/205] [ExponentWithLinearOp / mirror_inverse             ] - PASSED - (MaxDiff: 2.28882e-05 at pix[65532][1])
+[ 66/205] [GradingPrimary / style_log_fwd                    ] - PASSED - (MaxDiff: 1.3411e-05 at pix[48693][0])
+[ 67/205] [GradingPrimary / style_log_fwd_dynamic            ] - PASSED - (MaxDiff: 1.3411e-05 at pix[48693][0])
+[ 68/205] [GradingPrimary / style_log_rev                    ] - PASSED - (MaxDiff: 1.93223e-05 at pix[41507][2])
+[ 69/205] [GradingPrimary / style_log_rev_dynamic            ] - PASSED - (MaxDiff: 1.93223e-05 at pix[41507][2])
+[ 70/205] [GradingPrimary / style_lin_fwd                    ] - PASSED - (MaxDiff: 1.3411e-05 at pix[61017][0])
+[ 71/205] [GradingPrimary / style_lin_fwd_dynamic            ] - PASSED - (MaxDiff: 1.3411e-05 at pix[61017][0])
+[ 72/205] [GradingPrimary / style_lin_rev                    ] - PASSED - (MaxDiff: 1.94902e-05 at pix[40959][2])
+[ 73/205] [GradingPrimary / style_lin_rev_dynamic            ] - PASSED - (MaxDiff: 1.94902e-05 at pix[40959][2])
+[ 74/205] [GradingPrimary / style_video_fwd                  ] - PASSED - (MaxDiff: 9.56447e-08 at pix[50799][1])
+[ 75/205] [GradingPrimary / style_video_fwd_dynamic          ] - PASSED - (MaxDiff: 9.56447e-08 at pix[50799][1])
+[ 76/205] [GradingPrimary / style_video_rev                  ] - PASSED - (MaxDiff: 1.19208e-07 at pix[40851][0])
+[ 77/205] [GradingPrimary / style_video_rev_dynamic          ] - PASSED - (MaxDiff: 1.19208e-07 at pix[40851][0])
+[ 78/205] [GradingPrimary / style_log_dynamic_retests        ] - PASSED - (MaxDiff: 1.56924e-05 at pix[53696][0])
+[ 79/205] [GradingPrimary / two_transforms_retests           ] - PASSED - (MaxDiff: 6.35758e-05 at pix[10046][2])
+[ 80/205] [GradingRGBCurve / style_log_fwd                   ] - PASSED - (MaxDiff: 7.15256e-07 at pix[20052][2])
+[ 81/205] [GradingRGBCurve / style_log_fwd_dynamic           ] - PASSED - (MaxDiff: 7.15256e-07 at pix[20052][2])
+[ 82/205] [GradingRGBCurve / style_log_rev                   ] - PASSED - (MaxDiff: 3.57628e-07 at pix[1682][2])
+[ 83/205] [GradingRGBCurve / style_log_rev_dynamic           ] - PASSED - (MaxDiff: 3.57628e-07 at pix[1682][2])
+[ 84/205] [GradingRGBCurve / style_lin_fwd                   ] - PASSED - (MaxDiff: 0.000140396 at pix[60571][0])
+[ 85/205] [GradingRGBCurve / style_lin_fwd_dynamic           ] - PASSED - (MaxDiff: 0.000140396 at pix[60571][0])
+[ 86/205] [GradingRGBCurve / style_lin_rev                   ] - PASSED - (MaxDiff: 7.53773e-05 at pix[61409][2])
+[ 87/205] [GradingRGBCurve / style_lin_rev_dynamic           ] - PASSED - (MaxDiff: 7.53773e-05 at pix[61409][2])
+[ 88/205] [GradingRGBCurve / style_log_dynamic_retests       ] - PASSED - (MaxDiff: 1.13249e-06 at pix[20052][2])
+[ 89/205] [GradingRGBCurve / two_transforms_retests          ] - PASSED - (MaxDiff: 4.14511e-05 at pix[60728][3])
+[ 90/205] [GradingTone / style_log_midtones_fwd              ] - PASSED - (MaxDiff: 1.19209e-07 at pix[30055][2])
+[ 91/205] [GradingTone / style_log_midtones_fwd_dynamic      ] - PASSED - (MaxDiff: 1.19209e-07 at pix[30055][2])
+[ 92/205] [GradingTone / style_log_midtones_rev              ] - PASSED - (MaxDiff: 2.38419e-07 at pix[37663][2])
+[ 93/205] [GradingTone / style_log_midtones_rev_dynamic      ] - PASSED - (MaxDiff: 2.38419e-07 at pix[37663][2])
+[ 94/205] [GradingTone / style_log_highlights_fwd            ] - PASSED - (MaxDiff: 2.38419e-07 at pix[34759][2])
+[ 95/205] [GradingTone / style_log_highlights_fwd_dynamic    ] - PASSED - (MaxDiff: 2.98023e-07 at pix[40696][0])
+[ 96/205] [GradingTone / style_log_highlights_rev            ] - PASSED - (MaxDiff: 8.34465e-07 at pix[41461][2])
+[ 97/205] [GradingTone / style_log_highlights_rev_dynamic    ] - PASSED - (MaxDiff: 8.34465e-07 at pix[41461][2])
+[ 98/205] [GradingTone / style_video_shadows_fwd             ] - PASSED - (MaxDiff: 2.98023e-07 at pix[34887][2])
+[ 99/205] [GradingTone / style_video_shadows_fwd_dynamic     ] - PASSED - (MaxDiff: 2.98023e-07 at pix[34887][2])
+[100/205] [GradingTone / style_video_shadows_rev             ] - PASSED - (MaxDiff: 2.38419e-07 at pix[34957][2])
+[101/205] [GradingTone / style_video_shadows_rev_dynamic     ] - PASSED - (MaxDiff: 2.38419e-07 at pix[34957][2])
+[102/205] [GradingTone / style_video_white_detail_fwd        ] - PASSED - (MaxDiff: 1.70889e-06 at pix[48747][2])
+[103/205] [GradingTone / style_video_white_detail_fwd_dynami ] - PASSED - (MaxDiff: 2.12591e-06 at pix[48509][2])
+[104/205] [GradingTone / style_video_white_detail_rev        ] - PASSED - (MaxDiff: 5.80576e-07 at pix[34926][0])
+[105/205] [GradingTone / style_video_white_detail_rev_dynami ] - PASSED - (MaxDiff: 5.80576e-07 at pix[34926][0])
+[106/205] [GradingTone / style_log_black_detail_fwd          ] - PASSED - (MaxDiff: 7.15256e-07 at pix[21580][0])
+[107/205] [GradingTone / style_log_black_detail_fwd_dynamic  ] - PASSED - (MaxDiff: 7.15256e-07 at pix[21580][0])
+[108/205] [GradingTone / style_log_black_detail_rev          ] - PASSED - (MaxDiff: 1.19209e-06 at pix[27045][2])
+[109/205] [GradingTone / style_log_black_detail_rev_dynamic  ] - PASSED - (MaxDiff: 1.20699e-06 at pix[27135][2])
+[110/205] [GradingTone / style_log_scontrast_fwd             ] - PASSED - (MaxDiff: 1.19209e-07 at pix[4972][0])
+[111/205] [GradingTone / style_log_scontrast_fwd_dynamic     ] - PASSED - (MaxDiff: 1.19209e-07 at pix[4972][0])
+[112/205] [GradingTone / style_log_scontrast2_fwd            ] - PASSED - (MaxDiff: 2.38419e-07 at pix[10996][0])
+[113/205] [GradingTone / style_log_scontrast2_fwd_dynamic    ] - PASSED - (MaxDiff: 2.38419e-07 at pix[10996][0])
+[114/205] [GradingTone / style_log_scontrast_rev             ] - PASSED - (MaxDiff: 3.57606e-07 at pix[14199][0])
+[115/205] [GradingTone / style_log_scontrast_rev_dynamic     ] - PASSED - (MaxDiff: 3.57606e-07 at pix[14199][0])
+[116/205] [GradingTone / style_log_scontrast2_rev            ] - PASSED - (MaxDiff: 1.19208e-07 at pix[43691][0])
+[117/205] [GradingTone / style_log_scontrast2_rev_dynamic    ] - PASSED - (MaxDiff: 1.19209e-07 at pix[37418][0])
+[118/205] [GradingTone / style_lin_midtones_fwd              ] - PASSED - (MaxDiff: 4.4621e-05 at pix[49294][2])
+[119/205] [GradingTone / style_lin_midtones_fwd_dynamic      ] - PASSED - (MaxDiff: 4.4621e-05 at pix[49294][2])
+[120/205] [GradingTone / style_lin_midtones_rev              ] - PASSED - (MaxDiff: 4.43239e-05 at pix[61590][0])
+[121/205] [GradingTone / style_lin_midtones_rev_dynamic      ] - PASSED - (MaxDiff: 4.43239e-05 at pix[61590][0])
+[122/205] [GradingTone / style_log_dynamic_retests           ] - PASSED - (MaxDiff: 7.78368e-07 at pix[19366][0])
+[123/205] [GradingTone / two_transforms_retests              ] - PASSED - (MaxDiff: 2.14577e-06 at pix[49263][0])
+[124/205] [LogTransform / LogBase_10_legacy                  ] - PASSED - (MaxDiff: 4.29153e-06 at pix[21908][1])
+[125/205] [LogTransform / LogBase_10_legacy_inverse          ] - PASSED - (MaxDiff: 0.000267029 at pix[65413][2])
+[126/205] [LogTransform / LogBase_10_generic_shader          ] - PASSED - (MaxDiff: 4.29153e-06 at pix[21908][1])
+[127/205] [LogTransform / LogBase_10_inverse_generic_shader  ] - PASSED - (MaxDiff: 0.000267029 at pix[65413][2])
+[128/205] [LogTransform / LogBase_euler_legacy               ] - PASSED - (MaxDiff: 1.52588e-05 at pix[0][0])
+[129/205] [LogTransform / LogBase_euler_legacy_inverse       ] - PASSED - (MaxDiff: 1.95503e-05 at pix[65491][0])
+[130/205] [LogTransform / LogBase_euler_generic_shader       ] - PASSED - (MaxDiff: 1.52588e-05 at pix[0][0])
+[131/205] [LogTransform / LogBase_euler_inverse_generic_shad ] - PASSED - (MaxDiff: 1.95503e-05 at pix[65491][0])
+[132/205] [LogAffineTransform / base                         ] - PASSED - (MaxDiff: 4.29153e-06 at pix[21844][1])
+[133/205] [LogAffineTransform / base_inverse                 ] - PASSED - (MaxDiff: 2.7768e-06 at pix[19399][2])
+[134/205] [LogAffineTransform / linSideSlope                 ] - PASSED - (MaxDiff: 1.52588e-05 at pix[0][0])
+[135/205] [LogAffineTransform / linSideSlope_inverse         ] - PASSED - (MaxDiff: 2.0504e-05 at pix[65529][1])
+[136/205] [LogAffineTransform / linSideOffset                ] - PASSED - (MaxDiff: 1.52588e-05 at pix[0][0])
+[137/205] [LogAffineTransform / linSideOffset_inverse        ] - PASSED - (MaxDiff: 1.0252e-05 at pix[65526][0])
+[138/205] [LogAffineTransform / logSideSlope                 ] - PASSED - (MaxDiff: 6.10352e-05 at pix[0][2])
+[139/205] [LogAffineTransform / logSideSlope_inverse         ] - PASSED - (MaxDiff: 4.1008e-05 at pix[65535][1])
+[140/205] [LogAffineTransform / logSideOffset                ] - PASSED - (MaxDiff: 1.52588e-05 at pix[0][0])
+[141/205] [LogAffineTransform / logSideOffset_inverse        ] - PASSED - (MaxDiff: 1.00136e-05 at pix[65347][0])
+[142/205] [LogAffineTransform / lin2log                      ] - PASSED - (MaxDiff: 3.71933e-05 at pix[19114][2])
+[143/205] [LogAffineTransform / log2lin                      ] - PASSED - (MaxDiff: 0.00038147 at pix[65064][2])
+[144/205] [LogCameraTransform / camera_lin2log               ] - PASSED - (MaxDiff: 5.54323e-06 at pix[48794][2])
+[145/205] [LogCameraTransform / camera_log2lin               ] - PASSED - (MaxDiff: 0.000236511 at pix[65297][0])
+[146/205] [Lut1DOp / lut1d_1_small_legacy_shader             ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[147/205] [Lut1DOp / lut1d_1_small_inverse_legacy_shader     ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[148/205] [Lut1DOp / lut1d_1_small_generic_shader            ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[149/205] [Lut1DOp / lut1d_1_small_inverse_generic_shader    ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[150/205] [Lut1DOp / lut1d_2_legacy_shader                   ] - PASSED - (MaxDiff: 0.000137269 at pix[43675][1])
+[151/205] [Lut1DOp / lut1d_2_inverse_legacy_shader           ] - PASSED - (MaxDiff: 0.000132978 at pix[43663][0])
+[152/205] [Lut1DOp / lut1d_2_generic_shader                  ] - PASSED - (MaxDiff: 1.19209e-07 at pix[40756][0])
+[153/205] [Lut1DOp / lut1d_2_inverse_generic_shader          ] - PASSED - (MaxDiff: 1.2517e-06 at pix[36651][2])
+[154/205] [Lut1DOp / lut1d_3_big_legacy_shader               ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[155/205] [Lut1DOp / lut1d_3_big_inverse_legacy_shader       ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[156/205] [Lut1DOp / lut1d_3_big_generic_shader              ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[157/205] [Lut1DOp / lut1d_3_big_inverse_generic_shader      ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[158/205] [Lut1DOp / lut1d_3_big_nearest_generic_shader      ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[159/205] [Lut1DOp / scale_lut1d_4_legacy_shader             ] - PASSED - (MaxDiff: 6.04391e-05 at pix[53632][0])
+[160/205] [Lut1DOp / scale_lut1d_4_inverse_legacy_shader     ] - PASSED - (MaxDiff: 1.63317e-05 at pix[35488][2])
+[161/205] [Lut1DOp / scale_lut1d_4_generic_shader            ] - PASSED - (MaxDiff: 2.57492e-05 at pix[250][2])
+[162/205] [Lut1DOp / scale_lut1d_4_inverse_generic_shader    ] - PASSED - (MaxDiff: 1.19209e-07 at pix[54696][1])
+[163/205] [Lut1DOp / not_linear_lut1d_5_generic_shader       ] - PASSED - (MaxDiff: 0.00048868 at pix[21843][2])
+[164/205] [Lut1DOp / not_linear_lut1d_5_inverse_generic_shad ] - PASSED - (MaxDiff: 7.7486e-07 at pix[27345][1])
+[165/205] [Lut1DOp / lut1d_half_domain_unequal_channels      ] - PASSED - (MaxDiff: 3.63798e-12 at pix[22938][0])
+[166/205] [Lut1DOp / lut1d_file2_test                        ] - PASSED - (MaxDiff: 6.30021e-05 at pix[31343][1])
+[167/205] [Lut1DOp / lut1d_hue_adjust_test                   ] - PASSED - (MaxDiff: 3.03984e-06 at pix[33322][0])
+[168/205] [Lut1DOp / lut1d_half_domain_hue_adjust_test       ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[169/205] [Lut1DOp / lut1d_inverse_file1_test                ] - PASSED - (MaxDiff: 2.74181e-06 at pix[44462][1])
+[170/205] [Lut1DOp / lut1d_inverse_file2_test                ] - PASSED - (MaxDiff: 7.15256e-07 at pix[65529][1])
+[171/205] [Lut1DOp / lut1d_inverse_half_file1_test           ] - PASSED - (MaxDiff: 3.63216e-05 at pix[27767][1])
+[172/205] [Lut1DOp / lut1d_inverse_half_hue_adjust_file1_tes ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[173/205] [Lut3DOp / red_only_using_CSP_file_legacy_shader   ] - PASSED - (MaxDiff: 6.30021e-05 at pix[25043][0])
+[174/205] [Lut3DOp / green_only_using_CSP_file_legacy_shader ] - PASSED - (MaxDiff: 6.30021e-05 at pix[25043][1])
+[175/205] [Lut3DOp / blue_only_using_CSP_file_legacy_shader  ] - PASSED - (MaxDiff: 6.30021e-05 at pix[25043][2])
+[176/205] [Lut3DOp / arbitrary_using_CSP_file_legacy_shader  ] - PASSED - (MaxDiff: 6.30617e-05 at pix[42052][0])
+[177/205] [Lut3DOp / arbitrary_using_CSP_file                ] - PASSED - (MaxDiff: 0.00195304 at pix[28197][2])
+[178/205] [Lut3DOp / 3dlut_file_legacy_shader                ] - PASSED - (MaxDiff: 0.000182331 at pix[32279][0])
+[179/205] [Lut3DOp / 3dlut_file_spi3d_linear                 ] - PASSED - (MaxDiff: 0.000182331 at pix[32279][0])
+[180/205] [Lut3DOp / 3dlut_file_spi3d_tetra                  ] - PASSED - (MaxDiff: 1.19209e-07 at pix[39026][1])
+[181/205] [Lut3DOp / inv3dlut_file_spi3d_linear              ] - PASSED - (MaxDiff: 0.000551523 at pix[22294][0])
+[182/205] [Lut3DOp / inv3dlut_file_spi3d_tetra               ] - PASSED - (MaxDiff: 0.000551523 at pix[22294][0])
+[183/205] [Lut3DOp / 3dlut_file_spi3d_bizarre_linear         ] - PASSED - (MaxDiff: 0.00422347 at pix[43618][2])
+[184/205] [Lut3DOp / 3dlut_file_spi3d_bizarre_tetra          ] - PASSED - (MaxDiff: 2.38419e-07 at pix[41339][2])
+[185/205] [Lut3DOp / inv3dlut_file_spi3d_bizarre_linear      ] - PASSED - (MaxDiff: 0.000152379 at pix[26952][0])
+[186/205] [Lut3DOp / inv3dlut_file_spi3d_bizarre_tetra       ] - PASSED - (MaxDiff: 0.000152379 at pix[26952][0])
+[187/205] [Lut3DOp / 3dlut_biggest_supported                 ] - PASSED - (MaxDiff: 1.5378e-05 at pix[22316][1])
+[188/205] [MatrixOps / matrix                                ] - FAILED - 
+Maximum error: 9.536743164e-07 at pixel: 65322 on component 1 larger than epsilon.
+scr = {1.990751266, 1.990762711, 1.990774155, 1.990785837}
+cpu = {3.98152566, 7.16676712, 3.185235262, 5.574174881}
+gpu = {3.98152566, 7.166766167, 3.185235262, 5.574174881}
+absolute tolerance=4.999999987e-07
+[189/205] [MatrixOps / scale                                 ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[190/205] [MatrixOps / offset                                ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[191/205] [MatrixOps / matrix_offset                         ] - FAILED - 
+Maximum error: 9.536743164e-07 at pixel: 65322 on component 1 larger than epsilon.
+scr = {1.990751266, 1.990762711, 1.990774155, 1.990785837}
+cpu = {3.48152566, 6.91676712, 3.435235262, 5.574174881}
+gpu = {3.48152566, 6.916766167, 3.435235262, 5.574174881}
+absolute tolerance=4.999999987e-07
+[192/205] [MatrixOps / matrix_inverse                        ] - PASSED - (MaxDiff: 2.38419e-07 at pix[57885][0])
+[193/205] [MatrixOps / scale_inverse                         ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[194/205] [MatrixOps / offset_inverse                        ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[195/205] [MatrixOps / matrix_offset_inverse                 ] - PASSED - (MaxDiff: 2.38419e-07 at pix[41222][0])
+[196/205] [MatrixOps / matrix_offset_generic_shader          ] - FAILED - 
+Maximum error: 9.536743164e-07 at pixel: 65322 on component 1 larger than epsilon.
+scr = {1.990751266, 1.990762711, 1.990774155, 1.990785837}
+cpu = {3.98152566, 6.91676712, 3.435235262, 5.574174881}
+gpu = {3.98152566, 6.916766167, 3.435235262, 5.574174881}
+absolute tolerance=4.999999987e-07
+[197/205] [MatrixOps / matrix_offset_inverse_generic_shader  ] - PASSED - (MaxDiff: 2.38419e-07 at pix[41222][0])
+[198/205] [RangeOp / scale_with_low_and_high_clippings       ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[199/205] [RangeOp / scale_with_low_clipping                 ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[200/205] [RangeOp / scale_with_high_clipping                ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[201/205] [RangeOp / scale_with_low_and_high_clippings_2     ] - PASSED - (MaxDiff: 0 at pix[0][0])
+[202/205] [RangeOp / arbitrary_1                             ] - PASSED - (MaxDiff: 5.96046e-08 at pix[32774][1])
+[203/205] [RangeOp / arbitrary_1_no_clamp                    ] - PASSED - (MaxDiff: 1.19209e-07 at pix[43709][0])
+[204/205] [RangeOp / arbitrary_2                             ] - PASSED - (MaxDiff: 1.19209e-07 at pix[29207][1])
+[205/205] [RangeOp / arbitrary_2_no_clamp                    ] - PASSED - (MaxDiff: 4.76837e-07 at pix[58016][2])
+
+8 tests failed
+
+<end of output>
+Test time =  15.14 sec
+----------------------------------------------------------
+Test Failed.
+"test_gpu" end time: Jan 21 15:26 PST
+"test_gpu" time elapsed: 00:00:15
+----------------------------------------------------------
+
+4/4 Testing: test_python
+4/4 Test: test_python
+Command: "/Users/frankeder/Documents/ocio/venv/bin/python3.8" "/Users/frankeder/Documents/ocio/OpenColorIO/tests/python/OpenColorIOTestSuite.py" "/Users/frankeder/Documents/ocio/build" "True"
+Directory: /Users/frankeder/Documents/ocio/build/tests/python
+"test_python" start time: Jan 21 15:26 PST
+Output:
+----------------------------------------------------------
+test_allocation (AllocationTransformTest.AllocationTransformTest) ... ok
+test_constructor_with_keyword (AllocationTransformTest.AllocationTransformTest) ... ok
+test_constructor_with_positional (AllocationTransformTest.AllocationTransformTest) ... ok
+test_constructor_wrong_parameter_type (AllocationTransformTest.AllocationTransformTest) ... ok
+test_direction (AllocationTransformTest.AllocationTransformTest) ... ok
+test_transform_type (AllocationTransformTest.AllocationTransformTest) ... ok
+test_vars (AllocationTransformTest.AllocationTransformTest) ... ok
+test_contains (BuiltinTransformRegistryTest.BuiltinTransformRegistryTest) ... ok
+test_get_builtins (BuiltinTransformRegistryTest.BuiltinTransformRegistryTest) ... ok
+test_iterable (BuiltinTransformRegistryTest.BuiltinTransformRegistryTest) ... ok
+test_multi_reference (BuiltinTransformRegistryTest.BuiltinTransformRegistryTest) ... ok
+test_constructor_keyword (BuiltinTransformTest.BuiltinTransformTest) ... ok
+test_constructor_positional (BuiltinTransformTest.BuiltinTransformTest) ... ok
+test_direction (BuiltinTransformTest.BuiltinTransformTest) ... ok
+test_str (BuiltinTransformTest.BuiltinTransformTest) ... ok
+test_style (BuiltinTransformTest.BuiltinTransformTest) ... ok
+test_transform_type (BuiltinTransformTest.BuiltinTransformTest) ... ok
+test_constructor_with_keyword (CDLTransformTest.CDLTransformTest) ... ok
+test_constructor_without_keyword (CDLTransformTest.CDLTransformTest) ... ok
+test_constructor_without_parameter (CDLTransformTest.CDLTransformTest) ... ok
+test_create_from_file_cc (CDLTransformTest.CDLTransformTest) ... ok
+test_create_from_file_ccc (CDLTransformTest.CDLTransformTest) ... ok
+test_create_from_file_cdl (CDLTransformTest.CDLTransformTest) ... ok
+test_create_group_from_file (CDLTransformTest.CDLTransformTest) ... ok
+test_description (CDLTransformTest.CDLTransformTest) ... ok
+test_direction (CDLTransformTest.CDLTransformTest) ... ok
+test_equality (CDLTransformTest.CDLTransformTest) ... ok
+test_id (CDLTransformTest.CDLTransformTest) ... ok
+test_offset (CDLTransformTest.CDLTransformTest) ... ok
+test_power (CDLTransformTest.CDLTransformTest) ... ok
+test_saturation (CDLTransformTest.CDLTransformTest) ... ok
+test_slope (CDLTransformTest.CDLTransformTest) ... ok
+test_style (CDLTransformTest.CDLTransformTest) ... ok
+test_transform_type (CDLTransformTest.CDLTransformTest) ... ok
+test_validate_direction (CDLTransformTest.CDLTransformTest) ... ok
+test_validate_power (CDLTransformTest.CDLTransformTest) ... ok
+test_validate_saturation (CDLTransformTest.CDLTransformTest) ... ok
+test_validate_slope (CDLTransformTest.CDLTransformTest) ... ok
+test_apply (CPUProcessorTest.CPUProcessorTest) ... ok
+test_apply_rgb_buffer (CPUProcessorTest.CPUProcessorTest) ... ok
+test_apply_rgb_list (CPUProcessorTest.CPUProcessorTest) ... ok
+test_apply_rgba_buffer (CPUProcessorTest.CPUProcessorTest) ... ok
+test_apply_rgba_list (CPUProcessorTest.CPUProcessorTest) ... ok
+test_apply_src_dst (CPUProcessorTest.CPUProcessorTest) ... ok
+test_bit_depth (CPUProcessorTest.CPUProcessorTest) ... ok
+test_cache_id (CPUProcessorTest.CPUProcessorTest) ... ok
+test_dynamic_property (CPUProcessorTest.CPUProcessorTest) ... ok
+test_has_channel_crosstalk (CPUProcessorTest.CPUProcessorTest) ... ok
+test_is_identity (CPUProcessorTest.CPUProcessorTest) ... ok
+test_is_no_op (CPUProcessorTest.CPUProcessorTest) ... ok
+test_menu_creation_catgeories (ColorSpaceHelpersTest.ColorSpaceHelpersTest) ... ok
+test_menu_creation_colorspaces (ColorSpaceHelpersTest.ColorSpaceHelpersTest) ... ok
+test_menu_creation_include_roles (ColorSpaceHelpersTest.ColorSpaceHelpersTest) ... ok
+test_menu_creation_single_role (ColorSpaceHelpersTest.ColorSpaceHelpersTest) ... ok
+test_menu_parameters (ColorSpaceHelpersTest.ColorSpaceHelpersTest) ... ok
+test_aliases (ColorSpaceTest.ColorSpaceTest) ... ok
+test_allocation (ColorSpaceTest.ColorSpaceTest) ... ok
+test_allocation_vars (ColorSpaceTest.ColorSpaceTest) ... ok
+test_bitdepth (ColorSpaceTest.ColorSpaceTest) ... ok
+test_category (ColorSpaceTest.ColorSpaceTest) ... ok
+test_config (ColorSpaceTest.ColorSpaceTest) ... ok
+test_constructor_with_keyword (ColorSpaceTest.ColorSpaceTest) ... ok
+test_constructor_without_keyword (ColorSpaceTest.ColorSpaceTest) ... ok
+test_constructor_without_parameter (ColorSpaceTest.ColorSpaceTest) ... ok
+test_data (ColorSpaceTest.ColorSpaceTest) ... ok
+test_description (ColorSpaceTest.ColorSpaceTest) ... ok
+test_encoding (ColorSpaceTest.ColorSpaceTest) ... ok
+test_equality (ColorSpaceTest.ColorSpaceTest) ... ok
+test_family (ColorSpaceTest.ColorSpaceTest) ... ok
+test_name (ColorSpaceTest.ColorSpaceTest) ... ok
+test_transform (ColorSpaceTest.ColorSpaceTest) ... ok
+test_constructor_with_keyword (ColorSpaceTransformTest.ColorSpaceTransformTest) ... ok
+test_constructor_with_positional (ColorSpaceTransformTest.ColorSpaceTransformTest) ... ok
+test_constructor_wrong_parameter_type (ColorSpaceTransformTest.ColorSpaceTransformTest) ... ok
+test_direction (ColorSpaceTransformTest.ColorSpaceTransformTest) ... ok
+test_dst (ColorSpaceTransformTest.ColorSpaceTransformTest) ... ok
+test_src (ColorSpaceTransformTest.ColorSpaceTransformTest) ... ok
+test_transform_type (ColorSpaceTransformTest.ColorSpaceTransformTest) ... ok
+test_canonical_name (ConfigTest.ConfigTest) ... ok
+test_inactive_named_transform (ConfigTest.ConfigTest) ... ok
+test_named_transform (ConfigTest.ConfigTest) ... ok
+test_ruled_views (ConfigTest.ConfigTest) ... ok
+test_shared_views (ConfigTest.ConfigTest) ... ok
+test_add_display_view (DisplayViewHelpersTest.DisplayViewHelpersTest) ... ok
+test_get_identity_processor (DisplayViewHelpersTest.DisplayViewHelpersTest) ... ok
+test_get_processor (DisplayViewHelpersTest.DisplayViewHelpersTest) ... ok
+test_constructor_with_keyword (DisplayViewTransformTest.DisplayViewTransformTest) ... ok
+test_constructor_without_keyword (DisplayViewTransformTest.DisplayViewTransformTest) ... ok
+test_dataBypass (DisplayViewTransformTest.DisplayViewTransformTest) ... ok
+test_direction (DisplayViewTransformTest.DisplayViewTransformTest) ... ok
+test_display (DisplayViewTransformTest.DisplayViewTransformTest) ... ok
+test_looksBypass (DisplayViewTransformTest.DisplayViewTransformTest) ... ok
+test_processor (DisplayViewTransformTest.DisplayViewTransformTest) ... ok
+test_src (DisplayViewTransformTest.DisplayViewTransformTest) ... ok
+test_transform_type (DisplayViewTransformTest.DisplayViewTransformTest) ... ok
+test_validate_direction (DisplayViewTransformTest.DisplayViewTransformTest) ... ok
+test_validate_display (DisplayViewTransformTest.DisplayViewTransformTest) ... ok
+test_validate_src (DisplayViewTransformTest.DisplayViewTransformTest) ... ok
+test_validate_view (DisplayViewTransformTest.DisplayViewTransformTest) ... ok
+test_view (DisplayViewTransformTest.DisplayViewTransformTest) ... ok
+test_constructor_with_keyword (ExponentTransformTest.ExponentTransformTest) ... ok
+test_constructor_with_positional (ExponentTransformTest.ExponentTransformTest) ... ok
+test_constructor_wrong_parameter_type (ExponentTransformTest.ExponentTransformTest) ... ok
+test_direction (ExponentTransformTest.ExponentTransformTest) ... ok
+test_format_metadata (ExponentTransformTest.ExponentTransformTest) ... ok
+test_negative_style (ExponentTransformTest.ExponentTransformTest) ... ok
+test_transform_type (ExponentTransformTest.ExponentTransformTest) ... ok
+test_validate (ExponentTransformTest.ExponentTransformTest) ... ok
+test_values (ExponentTransformTest.ExponentTransformTest) ... ok
+test_constructor_with_keyword (ExponentWithLinearTransformTest.ExponentWithLinearTransformTest) ... ok
+test_constructor_with_positional (ExponentWithLinearTransformTest.ExponentWithLinearTransformTest) ... ok
+test_constructor_wrong_parameter_type (ExponentWithLinearTransformTest.ExponentWithLinearTransformTest) ... ok
+test_direction (ExponentWithLinearTransformTest.ExponentWithLinearTransformTest) ... ok
+test_format_metadata (ExponentWithLinearTransformTest.ExponentWithLinearTransformTest) ... ok
+test_gamma (ExponentWithLinearTransformTest.ExponentWithLinearTransformTest) ... ok
+test_negative_style (ExponentWithLinearTransformTest.ExponentWithLinearTransformTest) ... ok
+test_offset (ExponentWithLinearTransformTest.ExponentWithLinearTransformTest) ... ok
+test_transform_type (ExponentWithLinearTransformTest.ExponentWithLinearTransformTest) ... ok
+test_validate_gamma (ExponentWithLinearTransformTest.ExponentWithLinearTransformTest) ... ok
+test_validate_offset (ExponentWithLinearTransformTest.ExponentWithLinearTransformTest) ... ok
+test_constructor_with_keywords (ExposureContrastTransformTest.ExposureContrastTransformTest) ... ok
+test_constructor_with_positional (ExposureContrastTransformTest.ExposureContrastTransformTest) ... ok
+test_constructor_wrong_parameter_type (ExposureContrastTransformTest.ExposureContrastTransformTest) ... ok
+test_contrast (ExposureContrastTransformTest.ExposureContrastTransformTest) ... ok
+test_contrast_dynamic (ExposureContrastTransformTest.ExposureContrastTransformTest) ... ok
+test_exposure (ExposureContrastTransformTest.ExposureContrastTransformTest) ... ok
+test_exposure_dynamic (ExposureContrastTransformTest.ExposureContrastTransformTest) ... ok
+test_format_metadata (ExposureContrastTransformTest.ExposureContrastTransformTest) ... ok
+test_gamma (ExposureContrastTransformTest.ExposureContrastTransformTest) ... ok
+test_gamma_dynamic (ExposureContrastTransformTest.ExposureContrastTransformTest) ... ok
+test_log_exposure_step (ExposureContrastTransformTest.ExposureContrastTransformTest) ... ok
+test_log_mid_gray (ExposureContrastTransformTest.ExposureContrastTransformTest) ... ok
+test_pivot (ExposureContrastTransformTest.ExposureContrastTransformTest) ... ok
+test_style (ExposureContrastTransformTest.ExposureContrastTransformTest) ... ok
+test_transform_type (ExposureContrastTransformTest.ExposureContrastTransformTest) ... ok
+test_validate_direction (ExposureContrastTransformTest.ExposureContrastTransformTest) ... ok
+test_cccid (FileTransformTest.FileTransformTest) ... ok
+test_cdlstyle (FileTransformTest.FileTransformTest) ... ok
+test_constructor_with_keyword (FileTransformTest.FileTransformTest) ... ok
+test_constructor_with_positional (FileTransformTest.FileTransformTest) ... ok
+test_constructor_wrong_parameter_type (FileTransformTest.FileTransformTest) ... ok
+test_direction (FileTransformTest.FileTransformTest) ... ok
+test_get_processor (FileTransformTest.FileTransformTest) ... ok
+test_getformats (FileTransformTest.FileTransformTest) ... ok
+test_interpolation (FileTransformTest.FileTransformTest) ... ok
+test_src (FileTransformTest.FileTransformTest) ... ok
+test_transform_type (FileTransformTest.FileTransformTest) ... ok
+test_constructor_with_keywords (FixedFunctionTransformTest.FixedFunctionTransformTest) ... ok
+test_constructor_with_positional (FixedFunctionTransformTest.FixedFunctionTransformTest) ... ok
+test_constructor_wrong_parameter_type (FixedFunctionTransformTest.FixedFunctionTransformTest) ... ok
+test_direction (FixedFunctionTransformTest.FixedFunctionTransformTest) ... ok
+test_format_metadata (FixedFunctionTransformTest.FixedFunctionTransformTest) ... ok
+test_params (FixedFunctionTransformTest.FixedFunctionTransformTest) ... ok
+test_style (FixedFunctionTransformTest.FixedFunctionTransformTest) ... ok
+test_transform_type (FixedFunctionTransformTest.FixedFunctionTransformTest) ... ok
+test_validate_direction (FixedFunctionTransformTest.FixedFunctionTransformTest) ... ok
+test_validate_params (FixedFunctionTransformTest.FixedFunctionTransformTest) ... ok
+test_attributes (FormatMetadataTest.FormatMetadataTest) ... ok
+test_children (FormatMetadataTest.FormatMetadataTest) ... ok
+test_default (FormatMetadataTest.FormatMetadataTest) ... ok
+test_shader_creator_interface (GpuShaderDescTest.GpuShaderDescTest) ... ok
+test_texture (GpuShaderDescTest.GpuShaderDescTest) ... ok
+test_texture_3d (GpuShaderDescTest.GpuShaderDescTest) ... ok
+test_bspline (GradingDataTest.GradingDataTest) ... ok
+test_primary (GradingDataTest.GradingDataTest) ... ok
+test_rgbcurve (GradingDataTest.GradingDataTest) ... ok
+test_rgbm (GradingDataTest.GradingDataTest) ... ok
+test_rgbmsw (GradingDataTest.GradingDataTest) ... ok
+test_tone (GradingDataTest.GradingDataTest) ... ok
+test_apply_dynamic (GradingPrimaryTransformTest.GradingPrimaryTransformTest) ... ok
+test_apply_inverse (GradingPrimaryTransformTest.GradingPrimaryTransformTest) ... ok
+test_contructor (GradingPrimaryTransformTest.GradingPrimaryTransformTest) ... ok
+test_dynamic (GradingPrimaryTransformTest.GradingPrimaryTransformTest) ... ok
+test_style (GradingPrimaryTransformTest.GradingPrimaryTransformTest) ... ok
+test_transform_type (GradingPrimaryTransformTest.GradingPrimaryTransformTest) ... ok
+test_validation (GradingPrimaryTransformTest.GradingPrimaryTransformTest) ... ok
+test_values (GradingPrimaryTransformTest.GradingPrimaryTransformTest) ... ok
+test_apply_inverse (GradingRGBCurveTransformTest.GradingRGBCurveTransformTest) ... ok
+test_apply_with_slopes (GradingRGBCurveTransformTest.GradingRGBCurveTransformTest) ... ok
+test_contructor (GradingRGBCurveTransformTest.GradingRGBCurveTransformTest) ... ok
+test_dynamic (GradingRGBCurveTransformTest.GradingRGBCurveTransformTest) ... ok
+test_style (GradingRGBCurveTransformTest.GradingRGBCurveTransformTest) ... ok
+test_transform_type (GradingRGBCurveTransformTest.GradingRGBCurveTransformTest) ... ok
+test_validation (GradingRGBCurveTransformTest.GradingRGBCurveTransformTest) ... ok
+test_values (GradingRGBCurveTransformTest.GradingRGBCurveTransformTest) ... ok
+test_apply_inverse (GradingToneTransformTest.GradingToneTransformTest) ... ok
+test_contructor (GradingToneTransformTest.GradingToneTransformTest) ... ok
+test_dynamic (GradingToneTransformTest.GradingToneTransformTest) ... ok
+test_style (GradingToneTransformTest.GradingToneTransformTest) ... ok
+test_transform_type (GradingToneTransformTest.GradingToneTransformTest) ... ok
+test_validation (GradingToneTransformTest.GradingToneTransformTest) ... ok
+test_values (GradingToneTransformTest.GradingToneTransformTest) ... ok
+test_append_transform (GroupTransformTest.GroupTransformTest) ... ok
+test_constructor_with_keywords (GroupTransformTest.GroupTransformTest) ... ok
+test_constructor_with_positional (GroupTransformTest.GroupTransformTest) ... ok
+test_constructor_wrong_parameter_type (GroupTransformTest.GroupTransformTest) ... ok
+test_direction (GroupTransformTest.GroupTransformTest) ... ok
+test_format_metadata (GroupTransformTest.GroupTransformTest) ... ok
+test_prepend_transform (GroupTransformTest.GroupTransformTest) ... ok
+test_transform_type (GroupTransformTest.GroupTransformTest) ... ok
+test_validate_direction (GroupTransformTest.GroupTransformTest) ... ok
+test_write_clf (GroupTransformTest.GroupTransformTest) ... ok
+test_channel_view (LegacyViewingPipelineTest.LegacyViewingPipelineTest) ... ok
+test_color_timing_cc (LegacyViewingPipelineTest.LegacyViewingPipelineTest) ... ok
+test_display_cc (LegacyViewingPipelineTest.LegacyViewingPipelineTest) ... ok
+test_display_view_transform (LegacyViewingPipelineTest.LegacyViewingPipelineTest) ... ok
+test_get_processor (LegacyViewingPipelineTest.LegacyViewingPipelineTest) ... ok
+test_get_processor_errors (LegacyViewingPipelineTest.LegacyViewingPipelineTest) ... ok
+test_linear_cc (LegacyViewingPipelineTest.LegacyViewingPipelineTest) ... ok
+test_looks_override (LegacyViewingPipelineTest.LegacyViewingPipelineTest) ... ok
+test_base (LogCameraTransformTest.LogCameraTransformTest) ... ok
+test_constructor (LogCameraTransformTest.LogCameraTransformTest) ... ok
+test_direction (LogCameraTransformTest.LogCameraTransformTest) ... ok
+test_format_metadata (LogCameraTransformTest.LogCameraTransformTest) ... ok
+test_linSideBreak (LogCameraTransformTest.LogCameraTransformTest) ... ok
+test_linSideOffset (LogCameraTransformTest.LogCameraTransformTest) ... ok
+test_linSideSlope (LogCameraTransformTest.LogCameraTransformTest) ... ok
+test_linearSlope (LogCameraTransformTest.LogCameraTransformTest) ... ok
+test_logSideOffset (LogCameraTransformTest.LogCameraTransformTest) ... ok
+test_logSideSlope (LogCameraTransformTest.LogCameraTransformTest) ... ok
+test_transform_type (LogCameraTransformTest.LogCameraTransformTest) ... ok
+test_validate (LogCameraTransformTest.LogCameraTransformTest) ... ok
+test_base (LogTransformTest.LogTransformTest) ... ok
+test_constructor_with_keyword (LogTransformTest.LogTransformTest) ... ok
+test_constructor_with_positional (LogTransformTest.LogTransformTest) ... ok
+test_constructor_wrong_parameter_type (LogTransformTest.LogTransformTest) ... ok
+test_direction (LogTransformTest.LogTransformTest) ... ok
+test_format_metadata (LogTransformTest.LogTransformTest) ... ok
+test_transform_type (LogTransformTest.LogTransformTest) ... ok
+test_validate (LogTransformTest.LogTransformTest) ... ok
+test_constructor_with_keyword (LookTest.LookTest) ... ok
+test_constructor_with_positional (LookTest.LookTest) ... ok
+test_constructor_wrong_parameter_type (LookTest.LookTest) ... ok
+test_description (LookTest.LookTest) ... ok
+test_inverse_transform (LookTest.LookTest) ... ok
+test_name (LookTest.LookTest) ... ok
+test_process_space (LookTest.LookTest) ... ok
+test_transform (LookTest.LookTest) ... ok
+test_constructor (LookTransformTest.LookTransformTest) ... ok
+test_direction (LookTransformTest.LookTransformTest) ... ok
+test_dst (LookTransformTest.LookTransformTest) ... ok
+test_looks (LookTransformTest.LookTransformTest) ... ok
+test_skip_conversion (LookTransformTest.LookTransformTest) ... ok
+test_src (LookTransformTest.LookTransformTest) ... ok
+test_validate (LookTransformTest.LookTransformTest) ... ok
+test_direction (MatrixTransformTest.MatrixTransformTest) ... ok
+test_interface (MatrixTransformTest.MatrixTransformTest) ... ok
+test_color_picking (MixingHelpersTest.MixingHelpersTest) ... ok
+test_encoding (MixingHelpersTest.MixingHelpersTest) ... ok
+test_get_processor (MixingHelpersTest.MixingHelpersTest) ... ok
+test_mixing_slider (MixingHelpersTest.MixingHelpersTest) ... ok
+test_mixing_space (MixingHelpersTest.MixingHelpersTest) ... ok
+test_aliases (NamedTransformTest.NamedTransformTest) ... ok
+test_constructor_with_keywords (NamedTransformTest.NamedTransformTest) ... ok
+test_constructor_with_positional (NamedTransformTest.NamedTransformTest) ... ok
+test_constructor_wrong_parameter_type (NamedTransformTest.NamedTransformTest) ... ok
+test_description (NamedTransformTest.NamedTransformTest) ... ok
+test_family (NamedTransformTest.NamedTransformTest) ... ok
+test_name (NamedTransformTest.NamedTransformTest) ... ok
+test_processor (NamedTransformTest.NamedTransformTest) ... ok
+test_transform (NamedTransformTest.NamedTransformTest) ... ok
+test_env_variable (OpenColorIOTest.OpenColorIOTest) ... ok
+test_cache_id (ProcessorTest.ProcessorTest) ... ok
+test_create_group_transform (ProcessorTest.ProcessorTest) ... ok
+test_dynamic_properties (ProcessorTest.ProcessorTest) ... ok
+test_format_meta_data (ProcessorTest.ProcessorTest) ... ok
+test_has_channel_crosstalk (ProcessorTest.ProcessorTest) ... ok
+test_is_noop (ProcessorTest.ProcessorTest) ... ok
+test_optimize_processor (ProcessorTest.ProcessorTest) ... ok
+test_binding_group_polymorphism (TransformsTest.TransformsTest) ... ok
+test_color_spaces (ViewingRulesTest.ViewingRulesTest) ... ok
+test_config (ViewingRulesTest.ViewingRulesTest) ... ok
+test_custom_keys (ViewingRulesTest.ViewingRulesTest) ... ok
+test_encodings (ViewingRulesTest.ViewingRulesTest) ... ok
+test_insert_remove (ViewingRulesTest.ViewingRulesTest) ... ok
+
+----------------------------------------------------------------------
+Ran 275 tests in 0.237s
+
+OK
+<end of output>
+Test time =   0.82 sec
+----------------------------------------------------------
+Test Passed.
+"test_python" end time: Jan 21 15:26 PST
+"test_python" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 21 15:26 PST

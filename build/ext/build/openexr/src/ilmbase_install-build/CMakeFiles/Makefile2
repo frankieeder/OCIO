@@ -371,9 +371,9 @@ IlmBase/IexMath/CMakeFiles/IexMath.dir/clean:
 # Target rules for target IlmBase/Imath/CMakeFiles/Imath.dir
 
 # All Build rule for target.
-IlmBase/Imath/CMakeFiles/Imath.dir/all: IlmBase/Half/CMakeFiles/Half.dir/all
 IlmBase/Imath/CMakeFiles/Imath.dir/all: IlmBase/Iex/CMakeFiles/Iex.dir/all
 IlmBase/Imath/CMakeFiles/Imath.dir/all: IlmBase/IexMath/CMakeFiles/IexMath.dir/all
+IlmBase/Imath/CMakeFiles/Imath.dir/all: IlmBase/Half/CMakeFiles/Half.dir/all
 	$(MAKE) $(MAKESILENT) -f IlmBase/Imath/CMakeFiles/Imath.dir/build.make IlmBase/Imath/CMakeFiles/Imath.dir/depend
 	$(MAKE) $(MAKESILENT) -f IlmBase/Imath/CMakeFiles/Imath.dir/build.make IlmBase/Imath/CMakeFiles/Imath.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/frankeder/Documents/ocio/build/ext/build/openexr/src/ilmbase_install-build/CMakeFiles --progress-num=23,24,25,26,27,28,29 "Built target Imath"

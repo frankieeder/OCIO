@@ -677,6 +677,8 @@ sstream
 -
 OpenColorIO/OpenColorIO.h
 -
+Logging.h
+/Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/Logging.h
 Op.h
 /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/Op.h
 ops/cdl/CDLOp.h
@@ -4305,6 +4307,8 @@ ops/exposurecontrast/ExposureContrastOp.h
 /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/ops/exposurecontrast/ExposureContrastOp.h
 testutils/UnitTest.h
 /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/testutils/UnitTest.h
+UnitTestLogUtils.h
+/Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/UnitTestLogUtils.h
 UnitTestOptimFlags.h
 /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/UnitTestOptimFlags.h
 
@@ -5125,6 +5129,8 @@ transforms/ExposureContrastTransform.cpp
 /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/transforms/transforms/ExposureContrastTransform.cpp
 testutils/UnitTest.h
 /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/transforms/testutils/UnitTest.h
+UnitTestLogUtils.h
+/Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/transforms/UnitTestLogUtils.h
 
 /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/transforms/FileTransform_tests.cpp
 algorithm
@@ -5153,6 +5159,8 @@ transforms/GradingPrimaryTransform.cpp
 /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/transforms/transforms/GradingPrimaryTransform.cpp
 testutils/UnitTest.h
 /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/transforms/testutils/UnitTest.h
+UnitTestLogUtils.h
+/Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/transforms/UnitTestLogUtils.h
 
 /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/transforms/GradingRGBCurveTransform_tests.cpp
 ops/gradingrgbcurve/GradingBSplineCurve.h
@@ -5161,6 +5169,8 @@ transforms/GradingRGBCurveTransform.cpp
 /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/transforms/transforms/GradingRGBCurveTransform.cpp
 testutils/UnitTest.h
 /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/transforms/testutils/UnitTest.h
+UnitTestLogUtils.h
+/Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/transforms/UnitTestLogUtils.h
 
 /Users/frankeder/Documents/ocio/OpenColorIO/tests/cpu/transforms/GradingToneTransform_tests.cpp
 transforms/GradingToneTransform.cpp

@@ -1,4 +1,0 @@
-Determining if the -Wextra -Wshadow -Weffc++ -pedantic -pedantic-errors option is supported for CXX language failed with the following output:
-warning: unknown warning option '-Wextra -Wshadow -Weffc++ -pedantic -pedantic-errors' [-Wunknown-warning-option]
-1 warning generated.
-

@@ -1,3 +1,0 @@
-repository='https://github.com/libexpat/libexpat.git'
-module=''
-tag='origin'

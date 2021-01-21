@@ -677,6 +677,8 @@ sstream
 -
 OpenColorIO/OpenColorIO.h
 -
+Logging.h
+/Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/Logging.h
 Op.h
 /Users/frankeder/Documents/ocio/OpenColorIO/src/OpenColorIO/Op.h
 ops/cdl/CDLOp.h

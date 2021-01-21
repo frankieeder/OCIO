@@ -17,7 +17,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "include/OpenColorIO"
   "include/OpenColorIO/OpenColorIO"
   "ext/dist/include"
-  "/usr/local/Cellar/openimageio/2.2.7_1/include"
   "/usr/local/include"
   "/Users/frankeder/Documents/ocio/OpenColorIO/src/utils/.."
   )

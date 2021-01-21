@@ -1,0 +1,6 @@
+test_utils_exec 1 0.182951
+test_cpu 1 2.12658
+test_gpu 0 0
+test_python 1 0.818501
+---
+test_gpu

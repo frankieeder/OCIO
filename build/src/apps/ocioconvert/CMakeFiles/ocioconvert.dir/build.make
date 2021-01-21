@@ -103,19 +103,8 @@ src/apps/ocioconvert/ocioconvert: ext/dist/lib/libHalf-2_4.a
 src/apps/ocioconvert/ocioconvert: src/libutils/oglapphelpers/libOpenColorIOoglapphelpers.a
 src/apps/ocioconvert/ocioconvert: src/libutils/oiiohelpers/libOpenColorIOoiiohelpers.a
 src/apps/ocioconvert/ocioconvert: src/OpenColorIO/libOpenColorIO.2.0.0.dylib
-src/apps/ocioconvert/ocioconvert: /usr/local/lib/libOpenImageIO.2.2.7.dylib
+src/apps/ocioconvert/ocioconvert: /usr/local/lib/libOpenImageIO.dylib
 src/apps/ocioconvert/ocioconvert: ext/dist/lib/libHalf-2_4.a
-src/apps/ocioconvert/ocioconvert: /usr/local/lib/libImath-2_5.dylib
-src/apps/ocioconvert/ocioconvert: /usr/local/lib/libIex-2_5.dylib
-src/apps/ocioconvert/ocioconvert: /usr/local/lib/libHalf-2_5.dylib
-src/apps/ocioconvert/ocioconvert: /usr/local/lib/libIlmThread-2_5.dylib
-src/apps/ocioconvert/ocioconvert: /usr/local/lib/libIlmImf-2_5.dylib
-src/apps/ocioconvert/ocioconvert: /usr/local/lib/libImath-2_5.dylib
-src/apps/ocioconvert/ocioconvert: /usr/local/lib/libIex-2_5.dylib
-src/apps/ocioconvert/ocioconvert: /usr/local/lib/libHalf-2_5.dylib
-src/apps/ocioconvert/ocioconvert: /usr/local/lib/libIlmThread-2_5.dylib
-src/apps/ocioconvert/ocioconvert: /usr/local/lib/libIlmImf-2_5.dylib
-src/apps/ocioconvert/ocioconvert: /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd
 src/apps/ocioconvert/ocioconvert: src/apps/ocioconvert/CMakeFiles/ocioconvert.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/frankeder/Documents/ocio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ocioconvert"
 	cd /Users/frankeder/Documents/ocio/build/src/apps/ocioconvert && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ocioconvert.dir/link.txt --verbose=$(VERBOSE)

@@ -519,6 +519,9 @@ public:
     virtual void setNumControlPoints(size_t size) = 0;
     virtual const GradingControlPoint & getControlPoint(size_t index) const = 0;
     virtual GradingControlPoint & getControlPoint(size_t index) = 0;
+    virtual float getSlope(size_t index) const = 0;
+    virtual void setSlope(size_t index, float slope) = 0;
+    virtual bool slopesAreDefault() const = 0;
     virtual void validate() const = 0;
 
     GradingBSplineCurve(const GradingBSplineCurve &) = delete;
@@ -1085,7 +1088,10 @@ extern OCIOEXPORT std::ostream & operator<<(std::ostream &, const FileTransform 
 class OCIOEXPORT FixedFunctionTransform : public Transform
 {
 public:
-    static FixedFunctionTransformRcPtr Create();
+    static FixedFunctionTransformRcPtr Create(FixedFunctionStyle style);
+    static FixedFunctionTransformRcPtr Create(FixedFunctionStyle style,
+                                              const double * params,
+                                              size_t num);
 
     TransformType getTransformType() const noexcept override { return TRANSFORM_TYPE_FIXED_FUNCTION; }
 
@@ -1210,6 +1216,18 @@ public:
     virtual const ConstGradingRGBCurveRcPtr getValue() const = 0;
     /// Throws if value is not valid.
     virtual void setValue(const ConstGradingRGBCurveRcPtr & values) = 0;
+
+    /**
+     * It is possible to provide a desired slope value for each control point.  The number of slopes is 
+     * always the same as the number of control points and so the control points must be set before 
+     * setting the slopes.  The slopes are primarily intended for use by config authors looking to match
+     * a specific shape with as few control points as possible, they are not intended to be exposed to
+     * a user interface for direct manipulation.  When a curve is being generated for creative purposes
+     * it is better to let OCIO calculate the slopes automatically.
+     */
+    virtual float getSlope(RGBCurveType c, size_t index) const = 0;
+    virtual void setSlope(RGBCurveType c, size_t index, float slope) = 0;
+    virtual bool slopesAreDefault(RGBCurveType c) const = 0;
 
     /**
      * The scene-linear grading style applies a lin-to-log transform to the pixel
@@ -1370,7 +1388,7 @@ extern OCIOEXPORT std::ostream & operator<<(std::ostream &, const GroupTransform
 
 
 /**
- *  Applies a logarithm with an affine transform before and after.
+ * Applies a logarithm with an affine transform before and after.
  * Represents the Cineon lin-to-log type transforms::
  *
  *   logSideSlope * log( linSideSlope * color + linSideOffset, base) + logSideOffset
@@ -1418,8 +1436,8 @@ extern OCIOEXPORT std::ostream & operator<<(std::ostream &, const LogAffineTrans
 
 
 /**
- *  Same as :cpp:class:`LogAffineTransform` but with the addition of a linear segment
- * near black. This formula is used for many camera logs (e.g., LogC) as well as ACEScct.
+ * Same as LogAffineTransform but with the addition of a linear segment near black. This formula
+ * is used for many camera logs (e.g., LogC) as well as ACEScct.
  *
  * * The linSideBreak specifies the point on the linear axis where the log and linear
  *   segments meet.  It must be set (there is no default).  
@@ -1429,7 +1447,8 @@ extern OCIOEXPORT std::ostream & operator<<(std::ostream &, const LogAffineTrans
 class OCIOEXPORT LogCameraTransform : public Transform
 {
 public:
-    static LogCameraTransformRcPtr Create();
+    /// LinSideBreak must be set for the transform to be valid (there is no default).
+    static LogCameraTransformRcPtr Create(const double(&linSideBreakValues)[3]);
 
     TransformType getTransformType() const noexcept override { return TRANSFORM_TYPE_LOG_CAMERA; }
 
@@ -1442,8 +1461,7 @@ public:
     virtual double getBase() const noexcept = 0;
     virtual void setBase(double base) noexcept = 0;
 
-    // !rst:: **Get/Set values for the R, G, B components**
-
+    /// Get/Set values for the R, G, B components.
     virtual void getLogSideSlopeValue(double(&values)[3]) const noexcept = 0;
     virtual void setLogSideSlopeValue(const double(&values)[3]) noexcept = 0;
     virtual void getLogSideOffsetValue(double(&values)[3]) const noexcept = 0;
@@ -1452,9 +1470,7 @@ public:
     virtual void setLinSideSlopeValue(const double(&values)[3]) noexcept = 0;
     virtual void getLinSideOffsetValue(double(&values)[3]) const noexcept = 0;
     virtual void setLinSideOffsetValue(const double(&values)[3]) noexcept = 0;
-
-    /// Return true if LinSideBreak values were set, false if they were not.
-    virtual bool getLinSideBreakValue(double(&values)[3]) const noexcept = 0;
+    virtual void getLinSideBreakValue(double(&values)[3]) const noexcept = 0;
     virtual void setLinSideBreakValue(const double(&values)[3]) noexcept = 0;
 
     /// Return true if LinearSlope values were set, false if they were not.
